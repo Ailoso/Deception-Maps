@@ -1,0 +1,9 @@
+﻿DocInfo/DescLong=Completely devoid of any description whatsoever.
+DocInfo/DescShort=Any
+DocInfo/Name=Just Another StarCraft II Map
+Map/DefaultMissionTitle=Equipment Briefing
+Map/Name/Tins00=Equipment Briefing
+Map/PrimaryObjectiveText/Tins00=Test out your equipment before the mission starts
+MapInfo/Player00/Name=Neutral
+MapInfo/Player01/Name=Player 1
+MapInfo/Player02/Name=Hostile

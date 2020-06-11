@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+    <region id="1">
+        <name value="ZealotGroupA"/>
+        <shape type="circle">
+            <center value="82.3317,86.3708"/>
+            <radius value="2.9721"/>
+        </shape>
+    </region>
+</Regions>

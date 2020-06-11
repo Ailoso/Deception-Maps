@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CButton id="PropulsoresdeIones2">
+        <Icon value="Assets\Textures\btn-upgrade-terran-ionthrusters.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-ionthrusters.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+</Catalog>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAbilEffectTarget id="UseSpiderMinesTarget2">
+        <Cost index="0">
+            <Cooldown Link="Abil/VultureSpiderMines" TimeStart="15" TimeUse="15"/>
+        </Cost>
+    </CAbilEffectTarget>
+</Catalog>

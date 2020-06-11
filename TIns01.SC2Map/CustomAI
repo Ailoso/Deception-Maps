@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AIData>
+    <Definition Id="3FB5707D">
+        <SourcePlayer Value="2"/>
+        <TargetPlayer Value="1"/>
+        <Step Type="Wave" Id="1" Text="DropshipA">
+            <InitOff/>
+            <Unit Type="Firebat">
+                <Count DiffLevel="2" Value="1"/>
+                <Count DiffLevel="3" Value="1"/>
+                <Count DiffLevel="4" Value="2"/>
+            </Unit>
+            <Unit Type="Marine">
+                <Count DiffLevel="1" Value="6"/>
+                <Count DiffLevel="2" Value="5"/>
+                <Count DiffLevel="3" Value="5"/>
+                <Count DiffLevel="4" Value="4"/>
+            </Unit>
+        </Step>
+    </Definition>
+</AIData>

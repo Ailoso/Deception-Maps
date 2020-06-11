@@ -1,0 +1,28 @@
+﻿Button/Name/PropulsoresdeIones2=Propulsores de Iones
+Button/Tooltip/PropulsoresdeIones2=Incrementa la velocidad de movimiento de los Buitres en un 46%.
+Button/Tooltip/Sargento=<c val="#ColorAttackInfo">Unidad rápida de pelea. Puede usar la habilidad Mina araña. Puede atacar unidades terrestres.</c><n/><n/>Armamento:<n/><c val="#ColorWhite">Granadas de fragmentación anti-personal<n/>Minas Araña (opcional)</c><n/><n/>Las reforzadas Motos flotantes Buitres se usan principalmente para explorar los numerosos baldíos de las colonias terran y están diseñados para moverse con velocidad . La limitada tecnología de sobrevuelo utilizada por el Buitre le permite viajar sobre terrenos duros sin perder tracción ni velocidad. Aunque no son adecuados para combate pesado, pero son ideales para la escaramuza.
+Effect/Name/SpawnSpiderMine4=Spawn Spider Mine Copiar
+Effect/Name/SpawnSpiderMineSet3=Spawn Spider Mine Set Copiar
+Effect/Name/SpiderMineBehavior12=SpiderMineBehavior1 (sin nombre) Copiar
+Effect/Name/SpiderMineBurrowOrderTarget2=SpiderMineBurrowOrderTarget (sin nombre) Copiar
+Effect/Name/Vulture3=Fragmentation Grenade Copiar
+Effect/Name/VultureFragmentationGrenadeSwitch3=Fragmentation Grenade Copiar
+Effect/Name/VultureU232=Fragmentation Grenade Copiar
+Effect/Name/VultureU24=Fragmentation Grenade Copiar
+Effect/Name/VultureU42=Fragmentation Grenade Copiar
+MapInfo/Player00/Name=Neutral
+MapInfo/Player01/Name=Player 1
+MapInfo/Player02/Name=Jugador 2
+MapInfo/Player03/Name=Hostile
+S=
+Sa=
+Sar=
+Sarg=
+Sarge=
+Sargen=
+Sargent=
+Sargento=Sargento
+Sergeant=Sergeant
+Unit/Name/Sargento=Sergeant
+Weapon/Name/Vulture3=Granada de fragmentación
+Weapon/Tip/Vulture3=<c val="ffff8a">Concusivo</c>

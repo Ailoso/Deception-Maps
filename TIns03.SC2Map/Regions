@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+    <region id="1">
+        <name value="Auto_Revealer1"/>
+        <shape type="circle">
+            <center value="184.1606,25.2143"/>
+            <radius value="14.0063"/>
+        </shape>
+        <shape type="circle">
+            <center value="201.3356,17.2092"/>
+            <radius value="9.2392"/>
+        </shape>
+        <shape type="circle">
+            <center value="211.25,24"/>
+            <radius value="9.0173"/>
+        </shape>
+        <shape type="circle">
+            <center value="217,36.5"/>
+            <radius value="8.8457"/>
+        </shape>
+        <shape type="circle">
+            <center value="199.7136,34.0097"/>
+            <radius value="10.935"/>
+        </shape>
+        <shape type="circle">
+            <center value="209,41.75"/>
+            <radius value="5.2736"/>
+        </shape>
+    </region>
+    <region id="2">
+        <name value="Auto_Revealer4"/>
+        <shape type="circle">
+            <center value="179.9067,53.9572"/>
+            <radius value="4.8825"/>
+        </shape>
+        <shape type="circle">
+            <center value="187.3791,49.4497"/>
+            <radius value="5.6872"/>
+        </shape>
+        <shape type="circle">
+            <center value="193.5195,45.3557"/>
+            <radius value="4.563"/>
+        </shape>
+        <shape type="circle">
+            <center value="201.5292,46.948"/>
+            <radius value="5.436"/>
+        </shape>
+        <shape type="circle">
+            <center value="207.799,49.5646"/>
+            <radius value="4.5427"/>
+        </shape>
+        <shape type="circle">
+            <center value="203.9636,55.488"/>
+            <radius value="5.4433"/>
+        </shape>
+        <shape type="circle">
+            <center value="194.5424,55.73"/>
+            <radius value="8.2512"/>
+        </shape>
+        <shape type="circle">
+            <center value="185.3625,57.1362"/>
+            <radius value="6.478"/>
+        </shape>
+    </region>
+    <region id="3">
+        <name value="MineralWorkers"/>
+        <shape type="circle">
+            <center value="199.0046,28.1118"/>
+            <radius value="3.185"/>
+        </shape>
+        <shape type="circle">
+            <center value="203.0124,29.4172"/>
+            <radius value="3.3098"/>
+        </shape>
+    </region>
+    <region id="4">
+        <name value="SurvivorsTripwire"/>
+        <shape type="rect">
+            <quad value="93.6584,130.4487,106.3422,140.5517"/>
+        </shape>
+    </region>
+    <region id="5">
+        <name value="FinalPushTripwire"/>
+        <shape type="diamond">
+            <center value="119.0444,141.0605"/>
+            <width value="3.5732"/>
+            <height value="15.3803"/>
+        </shape>
+    </region>
+    <region id="6">
+        <name value="Rebels_Patrol1_Gather"/>
+        <shape type="circle">
+            <center value="156.0366,73.3256"/>
+            <radius value="4.528"/>
+        </shape>
+    </region>
+    <region id="9">
+        <name value="Auto_Revealer2"/>
+        <shape type="circle">
+            <center value="153.75,80.25"/>
+            <radius value="18.388"/>
+        </shape>
+    </region>
+    <region id="7">
+        <name value="Auto_Revealer3"/>
+        <shape type="circle">
+            <center value="141.5,41.75"/>
+            <radius value="11.4916"/>
+        </shape>
+        <shape type="circle">
+            <center value="153.75,37.25"/>
+            <radius value="7.4914"/>
+        </shape>
+    </region>
+    <region id="8">
+        <name value="Auto_Revealer5"/>
+        <shape type="circle">
+            <center value="50.5,136.5"/>
+            <radius value="9.9245"/>
+        </shape>
+        <shape type="circle">
+            <center value="54.75,125.5"/>
+            <radius value="8.1123"/>
+        </shape>
+        <shape type="circle">
+            <center value="60.25,137"/>
+            <radius value="9.1547"/>
+        </shape>
+        <shape type="circle">
+            <center value="62.25,124.75"/>
+            <radius value="6.7543"/>
+        </shape>
+        <shape type="circle">
+            <center value="66.75,133"/>
+            <radius value="13.53"/>
+        </shape>
+    </region>
+    <region id="10">
+        <name value="Auto_Revealer6"/>
+        <shape type="circle">
+            <center value="81,166.25"/>
+            <radius value="6.6"/>
+        </shape>
+        <shape type="circle">
+            <center value="87.25,162.75"/>
+            <radius value="5.4885"/>
+        </shape>
+        <shape type="circle">
+            <center value="78.25,159.75"/>
+            <radius value="5.6677"/>
+        </shape>
+        <shape type="circle">
+            <center value="84,154.25"/>
+            <radius value="6.3095"/>
+        </shape>
+        <shape type="circle">
+            <center value="83.5,150"/>
+            <radius value="5.8308"/>
+        </shape>
+    </region>
+    <region id="11">
+        <name value="Auto_Revealer7"/>
+        <shape type="circle">
+            <center value="171.25,160.75"/>
+            <radius value="8.1623"/>
+        </shape>
+        <shape type="circle">
+            <center value="162,171.25"/>
+            <radius value="8.707"/>
+        </shape>
+        <shape type="circle">
+            <center value="153.75,172"/>
+            <radius value="4.4228"/>
+        </shape>
+        <shape type="circle">
+            <center value="180.75,171.5"/>
+            <radius value="12.26"/>
+        </shape>
+        <shape type="circle">
+            <center value="173.25,182.25"/>
+            <radius value="7.458"/>
+        </shape>
+        <shape type="circle">
+            <center value="196.25,160.75"/>
+            <radius value="6.7172"/>
+        </shape>
+        <shape type="circle">
+            <center value="190.25,152.25"/>
+            <radius value="7.85"/>
+        </shape>
+        <shape type="circle">
+            <center value="181,155"/>
+            <radius value="4.7167"/>
+        </shape>
+    </region>
+    <region id="12">
+        <name value="Auto_Revealer8"/>
+        <shape type="circle">
+            <center value="163,122.5"/>
+            <radius value="7.9055"/>
+        </shape>
+        <shape type="circle">
+            <center value="178,120.25"/>
+            <radius value="11.718"/>
+        </shape>
+        <shape type="circle">
+            <center value="185,111.25"/>
+            <radius value="7.3015"/>
+        </shape>
+    </region>
+    <region id="13">
+        <name value="Rebels_Patrol2_Gather"/>
+        <shape type="circle">
+            <center value="125.25,157.25"/>
+            <radius value="6.0102"/>
+        </shape>
+    </region>
+    <region id="14">
+        <name value="Bonus_CavesTripwire"/>
+        <shape type="diamond">
+            <center value="79,147.25"/>
+            <width value="2.4746"/>
+            <height value="8.1308"/>
+        </shape>
+    </region>
+    <region id="15">
+        <name value="Optional_RockRevealers"/>
+        <shape type="circle">
+            <center value="72,159"/>
+            <radius value="3.2014"/>
+        </shape>
+        <shape type="circle">
+            <center value="92.25,156.5"/>
+            <radius value="3.473"/>
+        </shape>
+    </region>
+    <region id="16">
+        <name value="Bonus_RescueRegion"/>
+        <shape type="rect">
+            <quad value="69.5,129,75.5,136"/>
+        </shape>
+    </region>
+    <region id="17">
+        <name value="Bonus_Failsafe"/>
+        <shape type="circle">
+            <center value="77.5002,134.0002"/>
+            <radius value="9.724"/>
+        </shape>
+    </region>
+</Regions>

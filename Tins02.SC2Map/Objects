@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlacedObjects Version="27">
+    <ObjectCamera Id="1595304831" Position="69.838,69.934,0" Rotation="3.1274" Scale="1,1,1" Name="ChoiceCamera" Color="0,0,0,0" CameraTarget="69.838,69.934">
+        <CameraValue Index="FieldOfView" Value="27.7998"/>
+        <CameraValue Index="NearClip" Value="0.0998"/>
+        <CameraValue Index="FarClip" Value="20000"/>
+        <CameraValue Index="ShadowClip" Value="75"/>
+        <CameraValue Index="Distance" Value="23.2224"/>
+        <CameraValue Index="Pitch" Value="40.6806"/>
+        <CameraValue Index="Yaw" Value="179.1926"/>
+        <CameraValue Index="HeightOffset" Value="-0.75"/>
+        <CameraValue Index="FocalDepth" Value="8"/>
+        <CameraValue Index="FalloffEnd" Value="8"/>
+    </ObjectCamera>
+    <ObjectUnit Id="156152520" Position="83.423,85.7578,0" Rotation="5.4135" Scale="1,1,1" UnitType="Zealot" Player="2"/>
+    <ObjectUnit Id="133018641" Position="76.5,77.5,0" Rotation="5.4975" Scale="1,1,1" UnitType="HybridDoorsThinLeft"/>
+    <ObjectUnit Id="562502783" Position="66,76,0" Scale="1,1,1" UnitType="Pylon" Player="2"/>
+    <ObjectUnit Id="743486293" Position="62.5,74.5,0" Rotation="5.4975" Scale="1,1,1" UnitType="Gateway" Player="2"/>
+    <ObjectUnit Id="774626677" Position="81.801,87.5854,0" Rotation="5.5832" Scale="1,1,1" UnitType="Zealot" Player="2"/>
+    <ObjectUnit Id="1248226017" Position="81.7807,85.2487,0" Rotation="5.4663" Scale="1,1,1" UnitType="Zealot" Player="2"/>
+    <ObjectUnit Id="438029922" Position="75.3286,71.5405,0" Scale="1,1,1" UnitType="Beacon_TerranSmall" Player="1"/>
+    <ObjectPoint Id="1456585437" Position="74.5,66.5,0" Scale="1,1,1" Type="Normal" Name="BuildingSpawnA" Color="0,0,0,0"/>
+    <ObjectPoint Id="398743817" Position="72.5,69,0" Scale="1,1,1" Type="Normal" Name="Unit2Spawn" Color="0,0,0,0"/>
+    <ObjectPoint Id="781942865" Position="70.5,64.5,0" Scale="1,1,1" Type="Normal" Name="BuildingSpawnB" Color="0,0,0,0"/>
+    <ObjectPoint Id="1607757272" Position="72,67.5,0" Scale="1,1,1" Type="Normal" Name="Unit3Spawn" Color="0,0,0,0"/>
+    <ObjectPoint Id="1800544814" Position="68.5,69,0" Scale="1,1,1" Type="Normal" Name="HeroSpawn" Color="0,0,0,0"/>
+    <ObjectPoint Id="250265929" Position="68,73,0" Scale="1,1,1" Type="Normal" Name="SpawnsFacing" Color="0,0,0,0"/>
+    <ObjectPoint Id="1193697762" Position="74,69.5,0" Scale="1,1,1" Type="Normal" Name="Unit1Spawn" Color="0,0,0,0"/>
+</PlacedObjects>

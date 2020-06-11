@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CSound id="Td101" parent="Campaign2D" Portrait="PortraitSargento" Subtitle="TIM01" Speaker="Sergeant" Actor="Sargento" Line="00013">
+        <AssetArray index="0">
+            <File value="Transmissions\Calls\Td101.wav"/>
+            <FacialAnim value="Vulture_Pissed05"/>
+            <PortraitModel value="PortraitSargento"/>
+            <Speaker value="ConversationState/Characters/"/>
+            <Subtitle value="Conversation//Line"/>
+        </AssetArray>
+        <Category value="Dialogue"/>
+    </CSound>
+    <CSound id="Td102" parent="Campaign2D" Portrait="PortraitSargento" Subtitle="TIM01" Speaker="Sergeant" Actor="Sargento" Line="00001">
+        <AssetArray index="0">
+            <File value="Transmissions\Calls\Td102.wav"/>
+            <FacialAnim value="Vulture_Pissed07"/>
+            <PortraitModel value="PortraitSargento"/>
+            <Speaker value="ConversationState/Characters/"/>
+            <Subtitle value="Conversation//Line"/>
+        </AssetArray>
+    </CSound>
+    <CSound id="Td104" parent="Campaign2D" Portrait="PortraitSargento" Subtitle="TIM01" Speaker="Sergeant" Actor="Sargento" Line="00005">
+        <AssetArray index="0">
+            <File value="Transmissions\Calls\Td104.wav"/>
+            <FacialAnim value="Vulture_Pissed06"/>
+            <PortraitModel value="PortraitSargento"/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Dialogue"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="ChallengescombinedExecutor00012"/>
+    <CSound id="Td105" parent="Campaign2D" Portrait="PortraitSargento" Subtitle="TIM01" Speaker="Sergeant" Actor="Sargento" Line="00007">
+        <AssetArray index="0">
+            <File value="Transmissions\Calls\Td106.wav"/>
+            <FacialAnim value="Vulture_Pissed05"/>
+            <PortraitModel value="PortraitSargento"/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Dialogue"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Td106" parent="Campaign2D" Portrait="Marine9Portrait" Subtitle="TIM01" Speaker="Marine01" Actor="" Line="00014">
+        <AssetArray index="0">
+            <File value="Transmissions\Calls\Td107.wav"/>
+            <FacialAnim value="TValerian01DominionMarine500022"/>
+            <PortraitModel value="Marine9Portrait"/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Dialogue"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Td107" parent="Campaign2D" Portrait="PortraitSargento" Subtitle="TIM01" Speaker="Sergeant" Actor="Sargento" Line="00009">
+        <AssetArray index="0">
+            <File value="Transmissions\Calls\Td108.wav"/>
+            <FacialAnim value="TValerian01Vulture_Pissed04"/>
+            <PortraitModel value="PortraitSargento"/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Dialogue"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Td108" parent="Campaign2D" Portrait="PortraitSargento" Subtitle="TIM01" Speaker="Sergeant" Actor="Sargento" Line="00012">
+        <AssetArray index="0">
+            <File value="Transmissions\Calls\Td109.WAV"/>
+            <FacialAnim value="Vulture_Pissed05"/>
+            <PortraitModel value="PortraitSargento"/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Dialogue"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Td109" parent="Campaign2D" Portrait="PortraitSargento" Subtitle="TIM01" Speaker="Sergeant" Actor="Sargento" Line="00010">
+        <AssetArray index="0">
+            <File value="Transmissions\Calls\Td110.wav"/>
+            <FacialAnim value="Vulture_Pissed07"/>
+            <PortraitModel value="PortraitSargento"/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Dialogue"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Td110" parent="Campaign2D" Portrait="Marine9Portrait" Subtitle="TIM01" Speaker="Marine01" Actor="" Line="00011">
+        <AssetArray index="0">
+            <File value="Transmissions\Calls\Td111.WAV"/>
+            <FacialAnim value="TRaynor03Marine100008"/>
+            <PortraitModel value="Marine9Portrait"/>
+            <Speaker value=""/>
+            <Subtitle value=""/>
+        </AssetArray>
+        <Flags index="AutoUnload" value="0"/>
+        <Flags index="Wait" value="0"/>
+        <Category value="Dialogue"/>
+        <SpeakerMix index="BackLeft" value="1.000000"/>
+        <SpeakerMix index="BackRight" value="1.000000"/>
+        <SpeakerMix index="SideLeft" value="1.000000"/>
+        <SpeakerMix index="SideRight" value="1.000000"/>
+        <SustainFade index="1" Time="500"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Td103" parent="Campaign2D" Portrait="Marine9Portrait" Subtitle="TIM01" Speaker="Marine01" Actor="" Line="00014">
+        <AssetArray index="0">
+            <File value="Transmissions\Calls\Td103.wav"/>
+            <FacialAnim value="TRaynor01DominionMarine900046"/>
+            <PortraitModel value="Marine9Portrait"/>
+            <Speaker value="ConversationState/Characters/"/>
+            <Subtitle value="Conversation//Line"/>
+        </AssetArray>
+    </CSound>
+    <CSound id="Tmb101">
+        <AssetArray File="Transmissions\Brief\Tmb101.ogg" FacialGroup=""/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Dialogue"/>
+    </CSound>
+    <CSound id="Tmb102">
+        <AssetArray File="Transmissions\Brief\Tmb102.ogg" FacialGroup=""/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Dialogue"/>
+    </CSound>
+    <CSound id="Tmb103">
+        <AssetArray File="Transmissions\Brief\Tmb103.ogg" FacialGroup=""/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Dialogue"/>
+    </CSound>
+    <CSound id="Tmb104">
+        <AssetArray File="Transmissions\Brief\Tmb104.ogg" FacialGroup=""/>
+        <Flags index="Stream" value="1"/>
+        <Category value="Dialogue"/>
+    </CSound>
+    <CSound id="Vulture_Yes"/>
+    <CSound id="pCinematic_Protoss01_SelendisVoid_009">
+        <Flags index="NeedsUpdate" value="0"/>
+        <Flags index="NeedsTTS" value="0"/>
+    </CSound>
+    <CSound id="pMission_Aiur01_Zeratul_178">
+        <Flags index="NeedsUpdate" value="0"/>
+        <Flags index="NeedsTTS" value="0"/>
+    </CSound>
+    <CSound id="pMission_Aiur02_SelendisVoid_104">
+        <Flags index="NeedsUpdate" value="0"/>
+        <Flags index="NeedsTTS" value="0"/>
+    </CSound>
+</Catalog>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preload>
+<Actor id="SYSTEM_ActorConfig"/>
+<Terrain id="MoebiusLab"/>
+<Unit id="Pylon"/>
+<Unit id="Gateway"/>
+<Unit id="Zealot"/>
+<Unit id="Beacon_TerranSmall"/>
+<Unit id="HybridDoorsThinLeft"/>
+</Preload>

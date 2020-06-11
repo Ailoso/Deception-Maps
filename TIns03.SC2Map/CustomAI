@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AIData>
+    <RepeatShow Value="1200"/>
+    <Definition Id="3FB5707D" Color="12">
+        <SourcePlayer Value="2"/>
+        <TargetPlayer Value="1"/>
+        <GatherDefault Id="1426944529"/>
+        <RepeatWaves Value="3"/>
+        <Step Type="Wave" Id="1">
+            <Unit Type="Marine">
+                <Count DiffLevel="1" Value="4"/>
+                <Count DiffLevel="2" Value="4"/>
+                <Count DiffLevel="3" Value="4"/>
+                <Count DiffLevel="4" Value="4"/>
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="210"/>
+                <Duration DiffLevel="2" Value="210"/>
+                <Duration DiffLevel="3" Value="210"/>
+                <Duration DiffLevel="4" Value="210"/>
+            </Time>
+            <Point Type="Waypoint" Id="1787875752"/>
+            <Point Type="Waypoint" Id="514687109"/>
+            <Point Type="Waypoint" Id="713797775"/>
+            <Point Type="Waypoint" Id="395390545"/>
+            <Point Type="Waypoint" Id="350666622"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+        </Step>
+        <Step Type="Wave" Id="2">
+            <Unit Type="Firebat">
+                <Count DiffLevel="2" Value="1"/>
+                <Count DiffLevel="3" Value="1"/>
+                <Count DiffLevel="4" Value="1"/>
+            </Unit>
+            <Unit Type="Marine">
+                <Count DiffLevel="1" Value="6"/>
+                <Count DiffLevel="2" Value="5"/>
+                <Count DiffLevel="3" Value="5"/>
+                <Count DiffLevel="4" Value="5"/>
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="45"/>
+                <Duration DiffLevel="2" Value="45"/>
+                <Duration DiffLevel="3" Value="45"/>
+                <Duration DiffLevel="4" Value="45"/>
+            </Time>
+            <Point Type="Waypoint" Id="1787875752"/>
+            <Point Type="Waypoint" Id="514687109"/>
+            <Point Type="Waypoint" Id="713797775"/>
+            <Point Type="Waypoint" Id="395390545"/>
+            <Point Type="Waypoint" Id="350666622"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+        </Step>
+        <Step Type="Wave" Id="3">
+            <Unit Type="Firebat">
+            </Unit>
+            <Unit Type="Marine">
+            </Unit>
+            <Unit Type="Vulture">
+                <Count DiffLevel="1" Value="3"/>
+                <Count DiffLevel="2" Value="3"/>
+                <Count DiffLevel="3" Value="3"/>
+                <Count DiffLevel="4" Value="4"/>
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="190"/>
+                <Duration DiffLevel="2" Value="190"/>
+                <Duration DiffLevel="3" Value="190"/>
+                <Duration DiffLevel="4" Value="190"/>
+            </Time>
+            <Point Type="Waypoint" Id="1787875752"/>
+            <Point Type="Waypoint" Id="514687109"/>
+            <Point Type="Waypoint" Id="713797775"/>
+            <Point Type="Waypoint" Id="395390545"/>
+            <Point Type="Waypoint" Id="350666622"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+        </Step>
+        <Step Type="Wave" Id="4">
+            <Unit Type="Firebat">
+                <Count DiffLevel="1" Value="2"/>
+                <Count DiffLevel="2" Value="2"/>
+                <Count DiffLevel="3" Value="2"/>
+                <Count DiffLevel="4" Value="2"/>
+            </Unit>
+            <Unit Type="Marine">
+                <Count DiffLevel="1" Value="6"/>
+                <Count DiffLevel="2" Value="6"/>
+                <Count DiffLevel="3" Value="6"/>
+                <Count DiffLevel="4" Value="6"/>
+            </Unit>
+            <Unit Type="Vulture">
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="100"/>
+                <Duration DiffLevel="2" Value="100"/>
+                <Duration DiffLevel="3" Value="100"/>
+                <Duration DiffLevel="4" Value="100"/>
+            </Time>
+            <Point Type="Waypoint" Id="1787875752"/>
+            <Point Type="Waypoint" Id="514687109"/>
+            <Point Type="Waypoint" Id="713797775"/>
+            <Point Type="Waypoint" Id="395390545"/>
+            <Point Type="Waypoint" Id="350666622"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+        </Step>
+        <Step Type="Wave" Id="5">
+            <Unit Type="Firebat">
+            </Unit>
+            <Unit Type="Marine">
+                <Count DiffLevel="1" Value="6"/>
+                <Count DiffLevel="2" Value="6"/>
+                <Count DiffLevel="3" Value="6"/>
+                <Count DiffLevel="4" Value="6"/>
+            </Unit>
+            <Unit Type="Vulture">
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="60"/>
+                <Duration DiffLevel="2" Value="60"/>
+                <Duration DiffLevel="3" Value="60"/>
+                <Duration DiffLevel="4" Value="60"/>
+            </Time>
+            <Point Type="Waypoint" Id="1787875752"/>
+            <Point Type="Waypoint" Id="514687109"/>
+            <Point Type="Waypoint" Id="713797775"/>
+            <Point Type="Waypoint" Id="395390545"/>
+            <Point Type="Waypoint" Id="350666622"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+        </Step>
+        <Step Type="Wave" Id="6">
+            <Unit Type="Firebat">
+            </Unit>
+            <Unit Type="Marine">
+                <Count DiffLevel="1" Value="6"/>
+                <Count DiffLevel="2" Value="6"/>
+                <Count DiffLevel="3" Value="6"/>
+                <Count DiffLevel="4" Value="6"/>
+            </Unit>
+            <Unit Type="Vulture">
+            </Unit>
+            <Unit Type="Goliath">
+                <Count DiffLevel="1" Value="2"/>
+                <Count DiffLevel="2" Value="2"/>
+                <Count DiffLevel="3" Value="2"/>
+                <Count DiffLevel="4" Value="2"/>
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="190"/>
+                <Duration DiffLevel="2" Value="190"/>
+                <Duration DiffLevel="3" Value="190"/>
+                <Duration DiffLevel="4" Value="190"/>
+            </Time>
+            <Point Type="Waypoint" Id="1787875752"/>
+            <Point Type="Waypoint" Id="514687109"/>
+            <Point Type="Waypoint" Id="713797775"/>
+            <Point Type="Waypoint" Id="395390545"/>
+            <Point Type="Waypoint" Id="350666622"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+        </Step>
+        <Step Type="Wave" Id="7">
+            <Unit Type="Firebat">
+                <Count DiffLevel="1" Value="3"/>
+                <Count DiffLevel="2" Value="3"/>
+                <Count DiffLevel="3" Value="3"/>
+                <Count DiffLevel="4" Value="3"/>
+            </Unit>
+            <Unit Type="Marine">
+                <Count DiffLevel="1" Value="8"/>
+                <Count DiffLevel="2" Value="8"/>
+                <Count DiffLevel="3" Value="8"/>
+                <Count DiffLevel="4" Value="8"/>
+            </Unit>
+            <Unit Type="Vulture">
+            </Unit>
+            <Unit Type="Goliath">
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="170"/>
+                <Duration DiffLevel="2" Value="170"/>
+                <Duration DiffLevel="3" Value="170"/>
+                <Duration DiffLevel="4" Value="170"/>
+            </Time>
+            <Point Type="Waypoint" Id="1787875752"/>
+            <Point Type="Waypoint" Id="514687109"/>
+            <Point Type="Waypoint" Id="713797775"/>
+            <Point Type="Waypoint" Id="395390545"/>
+            <Point Type="Waypoint" Id="350666622"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+        </Step>
+        <Step Type="Comment" Text="Repeating Waves"/>
+        <Step Type="Wave" Id="8">
+            <Unit Type="Firebat">
+                <Count DiffLevel="1" Value="4"/>
+                <Count DiffLevel="2" Value="4"/>
+                <Count DiffLevel="3" Value="4"/>
+                <Count DiffLevel="4" Value="4"/>
+            </Unit>
+            <Unit Type="Marine">
+                <Count DiffLevel="1" Value="8"/>
+                <Count DiffLevel="2" Value="8"/>
+                <Count DiffLevel="3" Value="8"/>
+                <Count DiffLevel="4" Value="8"/>
+            </Unit>
+            <Unit Type="Vulture">
+                <Count DiffLevel="1" Value="2"/>
+                <Count DiffLevel="2" Value="2"/>
+                <Count DiffLevel="3" Value="2"/>
+                <Count DiffLevel="4" Value="2"/>
+            </Unit>
+            <Unit Type="Goliath">
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="210"/>
+                <Duration DiffLevel="2" Value="210"/>
+                <Duration DiffLevel="3" Value="210"/>
+                <Duration DiffLevel="4" Value="210"/>
+            </Time>
+            <Point Type="Waypoint" Id="1787875752"/>
+            <Point Type="Waypoint" Id="514687109"/>
+            <Point Type="Waypoint" Id="713797775"/>
+            <Point Type="Waypoint" Id="395390545"/>
+            <Point Type="Waypoint" Id="350666622"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+        </Step>
+        <Step Type="Wave" Id="9">
+            <Unit Type="Firebat">
+            </Unit>
+            <Unit Type="Marine">
+            </Unit>
+            <Unit Type="Vulture">
+            </Unit>
+            <Unit Type="Goliath">
+                <Count DiffLevel="1" Value="4"/>
+                <Count DiffLevel="2" Value="4"/>
+                <Count DiffLevel="3" Value="4"/>
+                <Count DiffLevel="4" Value="4"/>
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="130"/>
+                <Duration DiffLevel="2" Value="130"/>
+                <Duration DiffLevel="3" Value="130"/>
+                <Duration DiffLevel="4" Value="130"/>
+            </Time>
+            <Point Type="Waypoint" Id="1787875752"/>
+            <Point Type="Waypoint" Id="514687109"/>
+            <Point Type="Waypoint" Id="713797775"/>
+            <Point Type="Waypoint" Id="395390545"/>
+            <Point Type="Waypoint" Id="350666622"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+        </Step>
+        <Step Type="Wave" Id="10">
+            <Unit Type="Firebat">
+                <Count DiffLevel="1" Value="4"/>
+                <Count DiffLevel="2" Value="4"/>
+                <Count DiffLevel="3" Value="4"/>
+                <Count DiffLevel="4" Value="4"/>
+            </Unit>
+            <Unit Type="Marine">
+                <Count DiffLevel="1" Value="10"/>
+                <Count DiffLevel="2" Value="10"/>
+                <Count DiffLevel="3" Value="10"/>
+                <Count DiffLevel="4" Value="10"/>
+            </Unit>
+            <Unit Type="Vulture">
+            </Unit>
+            <Unit Type="Goliath">
+                <Count DiffLevel="1" Value="1"/>
+                <Count DiffLevel="2" Value="1"/>
+                <Count DiffLevel="3" Value="1"/>
+                <Count DiffLevel="4" Value="1"/>
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="210"/>
+                <Duration DiffLevel="2" Value="210"/>
+                <Duration DiffLevel="3" Value="210"/>
+                <Duration DiffLevel="4" Value="210"/>
+            </Time>
+            <Point Type="Waypoint" Id="1787875752"/>
+            <Point Type="Waypoint" Id="514687109"/>
+            <Point Type="Waypoint" Id="713797775"/>
+            <Point Type="Waypoint" Id="395390545"/>
+            <Point Type="Waypoint" Id="350666622"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+        </Step>
+    </Definition>
+    <Definition Id="41098559" Color="6">
+        <SourcePlayer Value="5"/>
+        <TargetPlayer Value="1"/>
+        <GatherDefault Id="446135283"/>
+        <RepeatWaves Value="4"/>
+        <Step Type="Wave" Id="1">
+            <Unit Type="Zergling">
+                <Count DiffLevel="1" Value="8"/>
+                <Count DiffLevel="2" Value="8"/>
+                <Count DiffLevel="3" Value="8"/>
+                <Count DiffLevel="4" Value="8"/>
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="340"/>
+                <Duration DiffLevel="2" Value="340"/>
+                <Duration DiffLevel="3" Value="340"/>
+                <Duration DiffLevel="4" Value="340"/>
+            </Time>
+            <Time Type="GatherTime">
+                <Duration DiffLevel="1" Value="280"/>
+                <Duration DiffLevel="2" Value="280"/>
+                <Duration DiffLevel="3" Value="280"/>
+                <Duration DiffLevel="4" Value="280"/>
+            </Time>
+            <Point Type="Gather" Id="446135283"/>
+            <Point Type="Transport" Id="446135283"/>
+            <Point Type="Waypoint" Id="941512242"/>
+            <Point Type="Waypoint" Id="320755835"/>
+            <Point Type="Waypoint" Id="1931822803"/>
+            <Point Type="Waypoint" Id="1062802102"/>
+            <Point Type="Waypoint" Id="1391602439"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+            <Point Type="Waypoint" Id="1603238787"/>
+        </Step>
+        <Step Type="Wave" Id="2">
+            <Unit Type="Zergling">
+                <Count DiffLevel="1" Value="8"/>
+                <Count DiffLevel="2" Value="8"/>
+                <Count DiffLevel="3" Value="8"/>
+                <Count DiffLevel="4" Value="10"/>
+            </Unit>
+            <Unit Type="Hydralisk">
+                <Count DiffLevel="4" Value="2"/>
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="260"/>
+                <Duration DiffLevel="2" Value="260"/>
+                <Duration DiffLevel="3" Value="260"/>
+                <Duration DiffLevel="4" Value="260"/>
+            </Time>
+            <Time Type="GatherTime">
+                <Duration DiffLevel="1" Value="200"/>
+                <Duration DiffLevel="2" Value="200"/>
+                <Duration DiffLevel="3" Value="200"/>
+                <Duration DiffLevel="4" Value="200"/>
+            </Time>
+            <Point Type="Gather" Id="446135283"/>
+            <Point Type="Transport" Id="446135283"/>
+            <Point Type="Waypoint" Id="941512242"/>
+            <Point Type="Waypoint" Id="320755835"/>
+            <Point Type="Waypoint" Id="1931822803"/>
+            <Point Type="Waypoint" Id="1062802102"/>
+            <Point Type="Waypoint" Id="1391602439"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+            <Point Type="Waypoint" Id="1603238787"/>
+        </Step>
+        <Step Type="Wave" Id="3">
+            <Unit Type="Zergling">
+            </Unit>
+            <Unit Type="Hydralisk">
+            </Unit>
+            <Unit Type="Mutalisk">
+                <Count DiffLevel="1" Value="4"/>
+                <Count DiffLevel="2" Value="4"/>
+                <Count DiffLevel="3" Value="4"/>
+                <Count DiffLevel="4" Value="4"/>
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="270"/>
+                <Duration DiffLevel="2" Value="270"/>
+                <Duration DiffLevel="3" Value="270"/>
+                <Duration DiffLevel="4" Value="270"/>
+            </Time>
+            <Time Type="GatherTime">
+                <Duration DiffLevel="1" Value="200"/>
+                <Duration DiffLevel="2" Value="200"/>
+                <Duration DiffLevel="3" Value="200"/>
+                <Duration DiffLevel="4" Value="200"/>
+            </Time>
+            <Point Type="Waypoint" Id="61193681"/>
+            <Point Type="Waypoint" Id="1353508999"/>
+        </Step>
+        <Step Type="Wave" Id="4">
+            <Unit Type="Zergling">
+                <Count DiffLevel="1" Value="10"/>
+                <Count DiffLevel="2" Value="10"/>
+                <Count DiffLevel="3" Value="10"/>
+                <Count DiffLevel="4" Value="10"/>
+            </Unit>
+            <Unit Type="Hydralisk">
+                <Count DiffLevel="1" Value="3"/>
+                <Count DiffLevel="2" Value="3"/>
+                <Count DiffLevel="3" Value="3"/>
+                <Count DiffLevel="4" Value="3"/>
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="210"/>
+                <Duration DiffLevel="2" Value="210"/>
+                <Duration DiffLevel="3" Value="210"/>
+                <Duration DiffLevel="4" Value="210"/>
+            </Time>
+            <Time Type="GatherTime">
+                <Duration DiffLevel="1" Value="190"/>
+                <Duration DiffLevel="2" Value="190"/>
+                <Duration DiffLevel="3" Value="190"/>
+                <Duration DiffLevel="4" Value="190"/>
+            </Time>
+            <Point Type="Gather" Id="446135283"/>
+            <Point Type="Transport" Id="446135283"/>
+            <Point Type="Waypoint" Id="941512242"/>
+            <Point Type="Waypoint" Id="320755835"/>
+            <Point Type="Waypoint" Id="1931822803"/>
+            <Point Type="Waypoint" Id="1062802102"/>
+            <Point Type="Waypoint" Id="1391602439"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+            <Point Type="Waypoint" Id="1603238787"/>
+        </Step>
+        <Step Type="Wave" Id="5">
+            <Unit Type="Zergling">
+                <Count DiffLevel="1" Value="16"/>
+                <Count DiffLevel="2" Value="16"/>
+                <Count DiffLevel="3" Value="16"/>
+                <Count DiffLevel="4" Value="16"/>
+            </Unit>
+            <Unit Type="Hydralisk">
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="220"/>
+                <Duration DiffLevel="2" Value="220"/>
+                <Duration DiffLevel="3" Value="220"/>
+                <Duration DiffLevel="4" Value="220"/>
+            </Time>
+            <Time Type="GatherTime">
+                <Duration DiffLevel="1" Value="190"/>
+                <Duration DiffLevel="2" Value="190"/>
+                <Duration DiffLevel="3" Value="190"/>
+                <Duration DiffLevel="4" Value="190"/>
+            </Time>
+            <Point Type="Gather" Id="446135283"/>
+            <Point Type="Transport" Id="446135283"/>
+            <Point Type="Waypoint" Id="941512242"/>
+            <Point Type="Waypoint" Id="320755835"/>
+            <Point Type="Waypoint" Id="1931822803"/>
+            <Point Type="Waypoint" Id="1062802102"/>
+            <Point Type="Waypoint" Id="1391602439"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+            <Point Type="Waypoint" Id="1603238787"/>
+        </Step>
+        <Step Type="Wave" Id="6">
+            <Unit Type="Zergling">
+                <Count DiffLevel="1" Value="6"/>
+                <Count DiffLevel="2" Value="6"/>
+                <Count DiffLevel="3" Value="6"/>
+                <Count DiffLevel="4" Value="6"/>
+            </Unit>
+            <Unit Type="Hydralisk">
+                <Count DiffLevel="1" Value="5"/>
+                <Count DiffLevel="2" Value="5"/>
+                <Count DiffLevel="3" Value="5"/>
+                <Count DiffLevel="4" Value="5"/>
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="120"/>
+                <Duration DiffLevel="2" Value="120"/>
+                <Duration DiffLevel="3" Value="120"/>
+                <Duration DiffLevel="4" Value="120"/>
+            </Time>
+            <Time Type="GatherTime">
+                <Duration DiffLevel="1" Value="100"/>
+                <Duration DiffLevel="2" Value="100"/>
+                <Duration DiffLevel="3" Value="100"/>
+                <Duration DiffLevel="4" Value="100"/>
+            </Time>
+            <Point Type="Gather" Id="446135283"/>
+            <Point Type="Transport" Id="446135283"/>
+            <Point Type="Waypoint" Id="941512242"/>
+            <Point Type="Waypoint" Id="320755835"/>
+            <Point Type="Waypoint" Id="1931822803"/>
+            <Point Type="Waypoint" Id="1062802102"/>
+            <Point Type="Waypoint" Id="1391602439"/>
+            <Point Type="Waypoint" Id="543808848"/>
+            <Point Type="Waypoint" Id="526007324"/>
+            <Point Type="Waypoint" Id="505006321"/>
+            <Point Type="Waypoint" Id="1603238787"/>
+        </Step>
+        <Step Type="Wave" Id="7">
+            <Unit Type="Zergling">
+                <Count DiffLevel="4" Value="5"/>
+            </Unit>
+            <Unit Type="Hydralisk">
+            </Unit>
+            <Unit Type="Mutalisk">
+                <Count DiffLevel="1" Value="5"/>
+                <Count DiffLevel="2" Value="5"/>
+                <Count DiffLevel="3" Value="5"/>
+                <Count DiffLevel="4" Value="5"/>
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="100"/>
+                <Duration DiffLevel="2" Value="100"/>
+                <Duration DiffLevel="3" Value="100"/>
+                <Duration DiffLevel="4" Value="100"/>
+            </Time>
+            <Time Type="GatherTime">
+                <Duration DiffLevel="1" Value="40"/>
+                <Duration DiffLevel="2" Value="40"/>
+                <Duration DiffLevel="3" Value="40"/>
+                <Duration DiffLevel="4" Value="40"/>
+            </Time>
+            <Point Type="Transport" Id="446135283"/>
+            <Point Type="Waypoint" Id="526007324"/>
+        </Step>
+        <Step Type="Wave" Id="8">
+            <Unit Type="Zergling">
+            </Unit>
+            <Unit Type="Hydralisk">
+            </Unit>
+            <Unit Type="Mutalisk">
+                <Count DiffLevel="1" Value="4"/>
+                <Count DiffLevel="2" Value="4"/>
+                <Count DiffLevel="3" Value="4"/>
+                <Count DiffLevel="4" Value="4"/>
+            </Unit>
+            <Time Type="Arrival">
+                <Duration DiffLevel="1" Value="180"/>
+                <Duration DiffLevel="2" Value="180"/>
+                <Duration DiffLevel="3" Value="180"/>
+                <Duration DiffLevel="4" Value="180"/>
+            </Time>
+            <Time Type="GatherTime">
+                <Duration DiffLevel="1" Value="180"/>
+                <Duration DiffLevel="2" Value="180"/>
+                <Duration DiffLevel="3" Value="180"/>
+                <Duration DiffLevel="4" Value="180"/>
+            </Time>
+            <Point Type="Waypoint" Id="61193681"/>
+            <Point Type="Waypoint" Id="1353508999"/>
+        </Step>
+    </Definition>
+    <Definition Id="531BA099">
+    </Definition>
+</AIData>

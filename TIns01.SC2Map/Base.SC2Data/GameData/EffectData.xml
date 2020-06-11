@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CEffectCreateUnit id="SpawnSpiderMine4" parent="SpawnSpiderMine">
+        <Name value="Effect/Name/SpawnSpiderMine4"/>
+        <SpawnEffect value="SpiderMineBehavior12"/>
+    </CEffectCreateUnit>
+    <CEffectSet id="SpawnSpiderMineSet3">
+        <EffectArray value="SpawnSpiderMine4"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="SpiderMineBehavior12"/>
+    <CEffectIssueOrder id="SpiderMineBurrowOrderTarget2"/>
+    <CEffectLaunchMissile id="Vulture3"/>
+    <CEffectSet id="VultureFragmentationGrenadeSwitch3">
+        <EffectArray value="VultureU42"/>
+        <EffectArray value="VultureU24"/>
+        <EffectArray value="VultureU232"/>
+    </CEffectSet>
+    <CEffectDamage id="VultureSpiderMinesDamage">
+        <Amount value="175"/>
+    </CEffectDamage>
+    <CEffectDamage id="VultureU232" parent="DU_WEAP_MISSILE">
+        <ValidatorArray value="UnitIsLarge"/>
+        <EditorCategories value="Race:Terran"/>
+        <Marker Link="Effect/VultureU"/>
+        <ShieldFactor value="3"/>
+        <ArmorReduction value="0.25"/>
+        <Visibility value="Visible"/>
+        <Amount value="5"/>
+        <SearchFilters value="Ground;Self,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CEffectDamage>
+    <CEffectDamage id="VultureU24" parent="DU_WEAP_MISSILE">
+        <ValidatorArray value="UnitIsMedium"/>
+        <EditorCategories value="Race:Terran"/>
+        <Marker Link="Effect/VultureU"/>
+        <ShieldFactor value="1"/>
+        <ArmorReduction value="0.5"/>
+        <Visibility value="Visible"/>
+        <Amount value="10"/>
+        <SearchFilters value="Ground;Self,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CEffectDamage>
+    <CEffectDamage id="VultureU42" parent="DU_WEAP_MISSILE">
+        <ValidatorArray value="UnitIsLarge2"/>
+        <ValidatorArray value="UnitIsMedium2"/>
+        <EditorCategories value="Race:Terran"/>
+        <AttributeFactor index="Armored" value="-0.5"/>
+        <AttributeFactor index="Massive" value="-0.75"/>
+        <Visibility value="Visible"/>
+        <Amount value="30"/>
+        <SearchFilters value="Ground;Self,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CEffectDamage>
+</Catalog>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUser id="Maps">
+        <Instances Id="Tins03">
+            <GameLink GameLink="TIns0101">
+                <Field Id="Achievements"/>
+            </GameLink>
+            <GameLink GameLink="TIns0101">
+                <Field Id="Achievements" Index="1"/>
+            </GameLink>
+            <GameLink GameLink="TIns0101">
+                <Field Id="Achievements" Index="2"/>
+            </GameLink>
+            <Image>
+                <Field Id="LoadingScreenVictoryImage"/>
+            </Image>
+            <Image>
+                <Field Id="UI_MissionArchive_Background"/>
+            </Image>
+            <Image>
+                <Field Id="UI_VictoryScreen_Background"/>
+            </Image>
+            <Int Int="61">
+                <Field Id="Index"/>
+            </Int>
+            <User Type="Locations" Instance="[Default]">
+                <Field Id="Location"/>
+            </User>
+        </Instances>
+    </CUser>
+</Catalog>

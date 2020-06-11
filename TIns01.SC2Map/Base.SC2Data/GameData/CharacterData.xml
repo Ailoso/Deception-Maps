@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CCharacter id="Sergeant">
+        <Age value="40"/>
+        <Race value="Terran"/>
+        <Image value="Assets\Textures\btn-unit-terran-vulture.dds"/>
+        <Relevance value="Medium"/>
+        <Voice value="NaturalVoice Paul"/>
+        <Variations Name="Character/Name/Commander/Var1" Model="PortraitSargento" Actor="Sargento"/>
+    </CCharacter>
+    <CCharacter id="SassyMarine1">
+        <Age value="30"/>
+        <Race value="Terran"/>
+        <Relevance value="Minor"/>
+        <Voice value="NaturalSoft Graham"/>
+        <Variations Name="Character/Name/SassyMarine1/Var1" Model="Marine9Portrait" Actor="Marine">
+            <DefaultCategories value="ConversationType:Mission"/>
+        </Variations>
+    </CCharacter>
+</Catalog>

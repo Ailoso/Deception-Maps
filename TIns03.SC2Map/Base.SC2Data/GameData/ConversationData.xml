@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CConversation id="TIM01">
+        <EditorCategories value="ConversationType:Mission"/>
+        <DefaultSpeaker1 value="SassyMarine1"/>
+        <Lines>
+            <Id value="Line00001"/>
+            <Text value="Conversation/TIM01/Line00001"/>
+            <FacialAnim value="Surprise"/>
+            <FacialBlend value="100"/>
+            <FacialAsVoiceDir value="1"/>
+            <Sound value="Td102"/>
+            <OverlapPrevious value="500"/>
+            <AnimProps value="Talk"/>
+            <AnimBlendIn value="750"/>
+            <AnimBlendOut value="750"/>
+            <LookAtAttach value="Head"/>
+            <SpeakerCharacter value="Sergeant"/>
+            <SpeakerVariation value="PortraitSargento"/>
+            <Objects index="Speaker" value=""/>
+            <Objects index="Listener" value=""/>
+            <Objects index="Camera" value="Medium"/>
+            <Variations index="Speaker" value=""/>
+            <Variations index="Listener" value=""/>
+            <Variations index="Camera" value=""/>
+        </Lines>
+        <Lines>
+            <Id value="Line00005"/>
+            <Text value="Conversation/TIM01/Line00005"/>
+            <FacialBlend value="100"/>
+            <Sound value="Td104"/>
+            <OverlapPrevious value="500"/>
+            <AnimProps value="Talk"/>
+            <AnimBlendIn value="750"/>
+            <AnimBlendOut value="750"/>
+            <LookAtAttach value="Head"/>
+            <SpeakerCharacter value="Sergeant"/>
+            <SpeakerVariation value="PortraitSargento"/>
+            <Objects index="Speaker" value=""/>
+            <Objects index="Listener" value=""/>
+            <Objects index="Camera" value="Medium"/>
+            <Variations index="Speaker" value=""/>
+            <Variations index="Listener" value=""/>
+            <Variations index="Camera" value=""/>
+        </Lines>
+        <Lines>
+            <Id value="Line00006"/>
+            <Text value="Conversation/TIM01/Line00006"/>
+            <FacialAnim value="Surprise"/>
+            <FacialBlend value="100"/>
+            <Sound value="Td103"/>
+            <OverlapPrevious value="500"/>
+            <AnimProps value="Talk"/>
+            <AnimBlendIn value="-1"/>
+            <AnimBlendOut value="-1"/>
+            <LookAtAttach value="Head"/>
+            <SpeakerCharacter value="Marine01"/>
+            <SpeakerVariation value="Marine9Portrait"/>
+            <Objects index="Speaker" value=""/>
+            <Objects index="Listener" value=""/>
+            <Objects index="Camera" value="Medium"/>
+            <Variations index="Speaker" value=""/>
+            <Variations index="Listener" value=""/>
+            <Variations index="Camera" value=""/>
+        </Lines>
+        <Lines>
+            <Id value="Line00007"/>
+            <Text value="Conversation/TIM01/Line00007"/>
+            <FacialBlend value="100"/>
+            <Sound value="Td105"/>
+            <OverlapPrevious value="500"/>
+            <AnimProps value="Talk"/>
+            <AnimBlendIn value="-1"/>
+            <AnimBlendOut value="-1"/>
+            <LookAtAttach value="Head"/>
+            <SpeakerCharacter value="Sergeant"/>
+            <SpeakerVariation value="PortraitSargento"/>
+            <Objects index="Speaker" value=""/>
+            <Objects index="Listener" value=""/>
+            <Objects index="Camera" value="Medium"/>
+            <Variations index="Speaker" value=""/>
+            <Variations index="Listener" value=""/>
+            <Variations index="Camera" value=""/>
+        </Lines>
+        <Lines>
+            <Id value="Line00009"/>
+            <Text value="Conversation/TIM01/Line00009"/>
+            <FacialBlend value="100"/>
+            <Sound value="Td107"/>
+            <OverlapPrevious value="500"/>
+            <AnimProps value="Talk"/>
+            <AnimBlendIn value="-1"/>
+            <AnimBlendOut value="-1"/>
+            <LookAtAttach value="Head"/>
+            <SpeakerCharacter value="Sergeant"/>
+            <SpeakerVariation value="PortraitSargento"/>
+            <Objects index="Speaker" value=""/>
+            <Objects index="Listener" value=""/>
+            <Objects index="Camera" value="Medium"/>
+            <Variations index="Speaker" value=""/>
+            <Variations index="Listener" value=""/>
+            <Variations index="Camera" value=""/>
+        </Lines>
+        <Lines>
+            <Id value="Line00010"/>
+            <Text value="Conversation/TIM01/Line00010"/>
+            <FacialBlend value="100"/>
+            <Sound value="Td109"/>
+            <OverlapPrevious value="500"/>
+            <AnimProps value="Talk"/>
+            <AnimBlendIn value="-1"/>
+            <AnimBlendOut value="-1"/>
+            <LookAtAttach value="Head"/>
+            <SpeakerCharacter value="Sergeant"/>
+            <SpeakerVariation value="PortraitSargento"/>
+            <Objects index="Speaker" value=""/>
+            <Objects index="Listener" value=""/>
+            <Objects index="Camera" value="Medium"/>
+            <Variations index="Speaker" value=""/>
+            <Variations index="Listener" value=""/>
+            <Variations index="Camera" value=""/>
+        </Lines>
+        <Lines>
+            <Id value="Line00011"/>
+            <Text value="Conversation/TIM01/Line00011"/>
+            <FacialBlend value="100"/>
+            <Sound value="Td110"/>
+            <OverlapPrevious value="500"/>
+            <AnimProps value="Talk"/>
+            <AnimBlendIn value="-1"/>
+            <AnimBlendOut value="-1"/>
+            <LookAtAttach value="Head"/>
+            <SpeakerCharacter value="Marine01"/>
+            <SpeakerVariation value="Marine9Portrait"/>
+            <Objects index="Speaker" value=""/>
+            <Objects index="Listener" value=""/>
+            <Objects index="Camera" value="Medium"/>
+            <Variations index="Speaker" value=""/>
+            <Variations index="Listener" value=""/>
+            <Variations index="Camera" value=""/>
+        </Lines>
+        <Lines>
+            <Id value="Line00012"/>
+            <Text value="Conversation/TIM01/Line00012"/>
+            <FacialBlend value="100"/>
+            <Sound value="Td108"/>
+            <OverlapPrevious value="500"/>
+            <AnimProps value="Talk"/>
+            <AnimBlendIn value="-1"/>
+            <AnimBlendOut value="-1"/>
+            <LookAtAttach value="Head"/>
+            <SpeakerCharacter value="Sergeant"/>
+            <SpeakerVariation value="PortraitSargento"/>
+            <Objects index="Speaker" value=""/>
+            <Objects index="Listener" value=""/>
+            <Objects index="Camera" value="Medium"/>
+            <Variations index="Speaker" value=""/>
+            <Variations index="Listener" value=""/>
+            <Variations index="Camera" value=""/>
+        </Lines>
+        <Lines>
+            <Id value="Line00013"/>
+            <Text value="Conversation/TIM01/Line00013"/>
+            <FacialBlend value="100"/>
+            <Sound value="Td101"/>
+            <OverlapPrevious value="500"/>
+            <AnimProps value="Talk"/>
+            <AnimBlendIn value="-1"/>
+            <AnimBlendOut value="-1"/>
+            <LookAtAttach value="Head"/>
+            <SpeakerCharacter value="Sergeant"/>
+            <SpeakerVariation value="PortraitSargento"/>
+            <Objects index="Speaker" value=""/>
+            <Objects index="Listener" value=""/>
+            <Objects index="Camera" value="Medium"/>
+            <Variations index="Speaker" value=""/>
+            <Variations index="Listener" value=""/>
+            <Variations index="Camera" value=""/>
+        </Lines>
+        <Lines>
+            <Id value="Line00014"/>
+            <Text value="Conversation/TIM01/Line00014"/>
+            <FacialAnim value="Surprise"/>
+            <FacialBlend value="100"/>
+            <Sound value="Td106"/>
+            <OverlapPrevious value="500"/>
+            <AnimProps value="Talk"/>
+            <AnimBlendIn value="-1"/>
+            <AnimBlendOut value="-1"/>
+            <LookAtAttach value="Head"/>
+            <SpeakerCharacter value="Marine01"/>
+            <SpeakerVariation value="Marine9Portrait"/>
+            <Objects index="Speaker" value=""/>
+            <Objects index="Listener" value=""/>
+            <Objects index="Camera" value="Medium"/>
+            <Variations index="Speaker" value=""/>
+            <Variations index="Listener" value=""/>
+            <Variations index="Camera" value=""/>
+        </Lines>
+        <Groups Id="Group00001" Name="Conversation/TIM01/Group00001">
+            <Children value="Comment00001"/>
+            <Children value="Line00001"/>
+            <Children value="Line00006"/>
+            <Children value="Line00005"/>
+        </Groups>
+        <Groups Id="Group00002" Name="Conversation/TIM01/Group00002">
+            <Children value="Comment00002"/>
+            <Children value="Line00007"/>
+            <Children value="Line00014"/>
+            <Children value="Line00009"/>
+        </Groups>
+        <Groups Id="Group00003" Name="Conversation/TIM01/Group00003">
+            <Children value="Comment00003"/>
+            <Children value="Line00010"/>
+            <Children value="Line00011"/>
+            <Children value="Comment00004"/>
+            <Children value="Line00012"/>
+            <Children value="Line00013"/>
+        </Groups>
+        <Comments Id="Comment00001" Text="Conversation/TIM01/Comment00001"/>
+        <Comments Id="Comment00002" Text="Conversation/TIM01/Comment00002"/>
+        <Comments Id="Comment00003" Text="Conversation/TIM01/Comment00003"/>
+        <Comments Id="Comment00004" Text="Conversation/TIM01/Comment00004"/>
+        <RootItems value="Group00001"/>
+        <RootItems value="Group00002"/>
+        <RootItems value="Group00003"/>
+        <DefaultSpeaker2 value="Sergeant"/>
+        <ProductionLevel value="2"/>
+    </CConversation>
+</Catalog>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CModel id="PortraitSargento" Race="Terran">
+        <Model value="VulturePortraitNoGoggles.m3"/>
+        <AnimBlendTime value="0.500000"/>
+        <EditorCategories value="Race:Terran"/>
+        <FacialController value="LocalizedData\Facial\VulturePortrait.fxa"/>
+        <Flags index="Download" value="0"/>
+        <Flags index="Facial" value="1"/>
+        <Flags index="FOW" value="0"/>
+        <Flags index="IgnoreAspectRatioScale" value="1"/>
+        <Image value="Assets\Textures\VulturePortrait_Static.dds"/>
+        <Lighting value="ToshPortrait"/>
+        <Priority value="8"/>
+        <Quality value="0"/>
+    </CModel>
+</Catalog>

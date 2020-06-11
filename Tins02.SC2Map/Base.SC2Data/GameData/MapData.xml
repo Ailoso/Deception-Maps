@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CMap id="Tins00">
+        <ContactModelLink value="BattlecruiserPortrait"/>
+        <UserReference value="Maps;Tins00"/>
+    </CMap>
+</Catalog>

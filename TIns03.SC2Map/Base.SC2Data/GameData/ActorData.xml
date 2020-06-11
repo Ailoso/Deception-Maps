@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CActorModel id="GenericAttackDamageModel2" parent="GenericAttackModel"/>
+    <CActorSound id="GenericAttackDamageSound2" parent="GenericAttackSound"/>
+    <CActorModel id="GenericAttackImpactModel2" parent="GenericAttackModel"/>
+    <CActorSound id="GenericAttackImpactSound2" parent="GenericAttackSound"/>
+    <CActorModel id="GenericAttackLaunchModel2" parent="GenericAttackModel"/>
+    <CActorSound id="GenericAttackLaunchSound2" parent="GenericAttackSound"/>
+    <CActorSound id="ReaperSpiderMinesDeploySound2" parent="SoundOneShot">
+        <On Terms="Effect.SpawnSpiderMine4.Create" Send="Create"/>
+        <Sound value="Vulture_SpiderMinePlace"/>
+    </CActorSound>
+    <!--                                                                                         -->
+    <!-- Vulture ............................................................................... -->
+    <!--                                                                                         -->
+    <CActorUnit id="Vulture">
+        <GroupIcon>
+            <Image index="0" value="Assets\Textures\wireframe-terran-vulture.dds"/>
+        </GroupIcon>
+        <Wireframe>
+            <Image index="0" value="Assets\Textures\wireframe-terran-vulture.dds"/>
+        </Wireframe>
+    </CActorUnit>
+    <CActorUnit id="Sargento" parent="Vulture" unitName="Sargento">
+        <On index="0" Terms="UnitBirth.Sargento"/>
+        <On index="1" Terms="UnitBirth.Sargento"/>
+        <On index="2" Terms="UnitRevive.Sargento"/>
+        <On index="3" Terms="UnitRevive.Sargento"/>
+        <On index="4" Terms="UnitConstruction.Sargento.Start"/>
+        <On index="5" Terms="UnitConstruction.Sargento.Finish"/>
+        <HighlightTooltip value="Unit/Name/Sargento"/>
+        <UnitKillRank Text="Sergeant"/>
+        <Scale value="1.150000"/>
+        <PortraitModel value="PortraitSargento"/>
+        <CustomUnitStatusFrame value="HotS_UnitStatus/KerriganHeroUnitStatusFrameTemplate"/>
+        <StatusBarOn index="Custom" value="1"/>
+        <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
+    </CActorUnit>
+    <CActorAction id="VultureAttack3" parent="GenericAttack" effectImpact="VultureFragmentationGrenadeSwitch" effectLaunch="Vulture3">
+        <LaunchAssets Model="VultureAttackLaunch" Sound="VultureAttackLaunch"/>
+        <LaunchModel value="GenericAttackLaunchModel2"/>
+        <LaunchSound value="GenericAttackLaunchSound2"/>
+        <ContainerModel value="GenericAttackLaunchModel2"/>
+        <ContainerSound value="GenericAttackLaunchSound2"/>
+        <Missile value="VultureAttackMissile2"/>
+        <ImpactMap index="None" Model="VultureAttackImpact" Sound="VultureAttackImpact"/>
+        <ImpactModel value="GenericAttackImpactModel2"/>
+        <ImpactSound value="GenericAttackImpactSound2"/>
+        <DamageModel value="GenericAttackDamageModel2"/>
+        <DamageSound value="GenericAttackDamageSound2"/>
+    </CActorAction>
+</Catalog>

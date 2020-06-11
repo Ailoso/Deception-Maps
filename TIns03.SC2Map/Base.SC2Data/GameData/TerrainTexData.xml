@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CTerrainTex id="AntigaPrimeGrass">
+        <DoodadEntry index="0" Model="DynamicGrassTarsonis" Probability="10.000000"/>
+        <DoodadEntry index="1" Model="PlantMixTarsonis" RandomRotation="1" Probability="0.500000"/>
+    </CTerrainTex>
+</Catalog>

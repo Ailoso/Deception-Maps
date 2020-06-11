@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUser id="Maps">
+        <Instances Id="Tins00">
+            <GameLink GameLink="PPrologue01_01">
+                <Field Id="Achievements"/>
+            </GameLink>
+            <GameLink GameLink="PPrologue01_02">
+                <Field Id="Achievements" Index="1"/>
+            </GameLink>
+            <GameLink GameLink="PPrologue01_03">
+                <Field Id="Achievements" Index="2"/>
+            </GameLink>
+            <GameLink GameLink="Briefing_Nova02">
+                <Field Id="Pitch"/>
+            </GameLink>
+        </Instances>
+    </CUser>
+</Catalog>
