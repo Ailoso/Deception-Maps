@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BankList>
+    <Bank Name="KLClassic" Player="1"/>
+    <Bank Name="KLAchi" Player="11"/>
+    <Bank Name="KLAchi" Player="2"/>
+    <Bank Name="KLAchi" Player="12"/>
+    <Bank Name="KLAchi" Player="7"/>
+    <Bank Name="KLAchi" Player="9"/>
+    <Bank Name="KLAchi" Player="5"/>
+    <Bank Name="KLAchi" Player="8"/>
+    <Bank Name="KLAchi" Player="10"/>
+    <Bank Name="KLAchi" Player="4"/>
+    <Bank Name="KLAchi" Player="3"/>
+    <Bank Name="KLAchi" Player="6"/>
+</BankList>
