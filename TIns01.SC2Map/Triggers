@@ -729,17 +729,16 @@
         <ValueId Id="3"/>
     </Element>
     <Element Type="FunctionCall" Id="B988B527">
-        <FunctionDef Type="FunctionDef" Library="VCUI" Id="5D607A3A"/>
-        <Parameter Type="Param" Id="04BAD1E5"/>
-        <Parameter Type="Param" Id="2A5AC3AE"/>
+        <FunctionDef Type="FunctionDef" Library="1926661B" Id="18A562DE"/>
+        <Parameter Type="Param" Id="AA8748DE"/>
+        <Parameter Type="Param" Id="42C84B56"/>
     </Element>
-    <Element Type="Param" Id="04BAD1E5">
-        <ParameterDef Type="ParamDef" Library="VCUI" Id="7C2BC0F4"/>
-        <Value>1</Value>
-        <ValueType Type="int"/>
+    <Element Type="Param" Id="AA8748DE">
+        <ParameterDef Type="ParamDef" Library="1926661B" Id="0A76C1D4"/>
+        <Variable Type="Variable" Id="9E808A49"/>
     </Element>
-    <Element Type="Param" Id="2A5AC3AE">
-        <ParameterDef Type="ParamDef" Library="VCUI" Id="17669F33"/>
+    <Element Type="Param" Id="42C84B56">
+        <ParameterDef Type="ParamDef" Library="1926661B" Id="BD7331AB"/>
         <Variable Type="Variable" Id="D0D8ADCA"/>
     </Element>
     <Element Type="FunctionCall" Id="9AFEEE2E">

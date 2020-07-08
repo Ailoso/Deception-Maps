@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Regions>
     <region id="1">
-        <name value="ZealotGroupA"/>
-        <shape type="circle">
-            <center value="82.3317,86.3708"/>
-            <radius value="2.9721"/>
+        <name value="S1-LockedStorage"/>
+        <shape type="diamond">
+            <center value="37.279,136.3234"/>
+            <width value="6.2604"/>
+            <height value="1.8381"/>
         </shape>
     </region>
 </Regions>

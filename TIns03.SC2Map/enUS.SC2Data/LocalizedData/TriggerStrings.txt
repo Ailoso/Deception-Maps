@@ -104,6 +104,7 @@ Trigger/Name/75307F19=Cavern Left Stop
 Trigger/Name/787647A0=AI Give Resources
 Trigger/Name/7EEF14D1=Start AI
 Trigger/Name/7FE76913=Victory Setup
+Trigger/Name/83F42CBB=Debug - BTime
 Trigger/Name/85B9ABBF=Intro Cleanup
 Trigger/Name/87665485=Objective Destroy Rebel Base Create
 Trigger/Name/9D1877CD=KC_CommandCenter Primary Search

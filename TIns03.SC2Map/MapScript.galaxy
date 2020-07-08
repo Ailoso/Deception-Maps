@@ -133,6 +133,7 @@ trigger gt_Init04MusicSound;
 trigger gt_Init05Environment;
 trigger gt_Init06Difficulties;
 trigger gt_Init07Help;
+trigger gt_DebugBTime;
 trigger gt_DebugFadeOut;
 trigger gt_DebugFadeOut2;
 trigger gt_DebugDropshipLand2;
@@ -540,9 +541,6 @@ void gf_MissionLaunchDisplayKL (string lp_mission) {
     SoundChannelSetVolume(PlayerGroupAll(), c_soundCategoryDialogue, 100.0, 0.0);
     TriggerExecute(gt_KC_CreateLaunchScreen, true, true);
     DialogSetVisible(gv_kC_MLDialog, PlayerGroupAll(), true);
-    libNtve_gf_SetDialogItemText(lib1926661B_gv_pP_MLTitle, StringExternal(lib1926661B_gf_PP_MissionProperty("Name")), PlayerGroupAll());
-    libNtve_gf_SetDialogItemText(lib1926661B_gv_pP_MLObjective, StringExternal(lib1926661B_gf_PP_MissionProperty("PrimaryObjectiveText")), PlayerGroupAll());
-    libNtve_gf_SetDialogItemModel(lib1926661B_gv_pP_MLContactPortrait, (CatalogFieldValueGet(c_gameCatalogMap, lib1926661B_gv_pP_NextMission, "ContactModelLink", c_playerAny)), PlayerGroupAll());
 }
 
 void gf_CinematicFade (bool lp_fadeIn, fixed lp_duration, color lp_color, bool lp_waitUntilDone) {
@@ -891,7 +889,6 @@ bool gt_Init03Units_Func (bool testConds, bool runActions) {
     }
 
     lib1926661B_gf_CreateHero2(PointFromId(1157359692), gv_pLAYER_01_USER, lib1926661B_ge_HeroUnit_JackFrost, 90.0, 0, lib1926661B_ge_HeroCreatePurpose_GamePlay);
-    lib1926661B_gf_CreateHero2(PointFromId(1157359692), gv_pLAYER_01_USER, lib1926661B_ge_HeroUnit_JackFrost, 90.0, 0, lib1926661B_ge_HeroCreatePurpose_GamePlay);
     gv_artanis = UnitLastCreated();
     lib1926661B_gf_SetHeroPanelUnit(1, UnitLastCreated());
     UnitSetTeamColorIndex(gv_artanis, 3);
@@ -1011,6 +1008,29 @@ bool gt_Init07Help_Func (bool testConds, bool runActions) {
 //--------------------------------------------------------------------------------------------------
 void gt_Init07Help_Init () {
     gt_Init07Help = TriggerCreate("gt_Init07Help_Func");
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: Debug - BTime
+//--------------------------------------------------------------------------------------------------
+bool gt_DebugBTime_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    GameSetGlobalTimeScale(0.0);
+    libVoiC_gf_PauseMissionTimeCampaign(true);
+    libVoiC_gf_PauseAITimeCampaign(true);
+    libVoiC_gf_PauseAITimeCampaign(true);
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void gt_DebugBTime_Init () {
+    gt_DebugBTime = TriggerCreate("gt_DebugBTime_Func");
+    TriggerAddEventChatMessage(gt_DebugBTime, c_playerAny, "Time", true);
 }
 
 //--------------------------------------------------------------------------------------------------
@@ -1189,7 +1209,7 @@ bool gt_StartGameQ_Func (bool testConds, bool runActions) {
     }
 
     libVCMI_gf_StartingWorkersAutoHarvest(RegionFromId(3), null);
-    Wait(3.0, c_timeReal);
+    Wait(3.0, c_timeGame);
     TriggerQueueEnter();
     TriggerExecute(gt_ObjectiveDestroyRebelBaseCreate, true, true);
     libVCMI_gf_CreateObjectivePing(true, PointFromId(1409440177), null);
@@ -1198,7 +1218,7 @@ bool gt_StartGameQ_Func (bool testConds, bool runActions) {
     libVCMI_gf_SendTransmissionCampaign(gv_artanis, "Genericphrases|Line00069", c_transmissionDurationAdd, 0.0, true, libVCMI_ge_MissionTransmissionPortraitOptioins_HidePortraitAfter, libVCMI_ge_MissionTransmissionCueSoundOptions_DefaultCueSoundBehavior);
     libVoiC_gf_SetAllSoundChannelVolumesCampaign(libVoiC_ge_VolumeChannelModeCampaign_Game);
     TriggerQueueExit();
-    Wait(2.0, c_timeReal);
+    Wait(2.0, c_timeGame);
     TriggerExecute(gt_TipReadyQ, true, false);
     Wait(20.0, c_timeGame);
     TriggerExecute(gt_FirstScriptedEvent, true, false);
@@ -1834,9 +1854,9 @@ bool gt_DefeatBaseDead_Func (bool testConds, bool runActions) {
     libVCMI_gf_GameOver(libVCMI_ge_CampaignMissionGameResultType_Defeat);
     TriggerQueuePause(true);
     TriggerQueueClear(c_triggerQueueRemove);
-    Wait(2.0, c_timeReal);
+    Wait(2.0, c_timeGame);
     libVCMI_gf_DisplayCampaignMessage(PlayerGroupAll(), libVCMI_ge_CampaignMessageType_MissionFailed, StringExternal("Param/Value/EDFCB7EA"), libVCMI_ge_CampaignMessageFormatNotFormat_FormatMessage);
-    Wait(libVCMI_gv_campaignObjectiveDelay, c_timeReal);
+    Wait(libVCMI_gv_campaignObjectiveDelay, c_timeGame);
     TriggerExecute(gt_Defeat, true, false);
     return true;
 }
@@ -1868,7 +1888,7 @@ bool gt_DefeatPrimaryObjectiveFailed_Func (bool testConds, bool runActions) {
     libVCMI_gf_GameOver(libVCMI_ge_CampaignMissionGameResultType_Defeat);
     TriggerQueuePause(true);
     TriggerQueueClear(c_triggerQueueRemove);
-    Wait(2.0, c_timeReal);
+    Wait(2.0, c_timeGame);
     TriggerExecute(gt_ObjectiveDestroyRebelBaseFailed, true, false);
     libVCMI_gf_DisplayCampaignMessage(PlayerGroupAll(), libVCMI_ge_CampaignMessageType_MissionFailed, StringExternal("Param/Value/FC05C5BD"), libVCMI_ge_CampaignMessageFormatNotFormat_FormatMessage);
     Wait(libVCMI_gv_campaignObjectiveDelay, c_timeReal);
@@ -2991,6 +3011,7 @@ void InitTriggers () {
     gt_Init05Environment_Init();
     gt_Init06Difficulties_Init();
     gt_Init07Help_Init();
+    gt_DebugBTime_Init();
     gt_DebugFadeOut_Init();
     gt_DebugFadeOut2_Init();
     gt_DebugDropshipLand2_Init();

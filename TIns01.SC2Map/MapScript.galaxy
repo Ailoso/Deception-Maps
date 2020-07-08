@@ -537,7 +537,7 @@ bool gt_Init03Units_Func (bool testConds, bool runActions) {
 
     gv_artanis = UnitFromId(324947217);
     UnitSetTeamColorIndex(gv_artanis, 3);
-    libVCUI_gf_SetHeroPanelUnit(1, gv_artanis);
+    lib1926661B_gf_SetHeroPanelUnit(gv_pLAYER_01_USER, gv_artanis);
     gv_artanis2 = UnitFromId(13476808);
     gv_artanis3 = UnitFromId(380263302);
     gv_s3_DropshipA = UnitFromId(9523556);

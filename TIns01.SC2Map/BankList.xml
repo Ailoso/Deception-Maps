@@ -12,6 +12,6 @@
     <Bank Name="ZStory" Player="1"/>
     <Bank Name="ZStoryTransition" Player="1"/>
     <Bank Name="ZDebugStory" Player="1"/>
-    <Bank Name="PPrologue" Player="1"/>
-    <Bank Name="PrologueArchive" Player="1"/>
+    <Bank Name="KCInsurrection" Player="1"/>
+    <Bank Name="InsurrectionArchive" Player="1"/>
 </BankList>

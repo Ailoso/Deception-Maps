@@ -17,15 +17,6 @@ void InitLibs () {
 }
 
 //--------------------------------------------------------------------------------------------------
-// Global Variables
-//--------------------------------------------------------------------------------------------------
-unitgroup gv_zealotGroup;
-
-void InitGlobals () {
-    gv_zealotGroup = UnitGroupEmpty();
-}
-
-//--------------------------------------------------------------------------------------------------
 // Trigger Variables
 //--------------------------------------------------------------------------------------------------
 trigger gt_MeleeInitialization;
@@ -35,22 +26,13 @@ trigger gt_MeleeInitialization;
 //--------------------------------------------------------------------------------------------------
 bool gt_MeleeInitialization_Func (bool testConds, bool runActions) {
     // Automatic Variable Declarations
-    unitgroup auto713D82EC_g;
-    int auto713D82EC_u;
-    unit auto713D82EC_var;
-
     // Actions
     if (!runActions) {
         return true;
     }
 
-    auto713D82EC_g = UnitGroup(null, 2, RegionFromId(1), UnitFilter(0, 0, (1 << c_targetFilterMissile), (1 << (c_targetFilterDead - 32)) | (1 << (c_targetFilterHidden - 32))), 0);
-    auto713D82EC_u = UnitGroupCount(auto713D82EC_g, c_unitCountAll);
-    for (;; auto713D82EC_u -= 1) {
-        auto713D82EC_var = UnitGroupUnitFromEnd(auto713D82EC_g, auto713D82EC_u);
-        if (auto713D82EC_var == null) { break; }
-        UnitGroupAdd(gv_zealotGroup, auto713D82EC_var);
-    }
+    PlayerSetConsoleSkin(1, "ConsoleTerran_Classic");
+    GameSetLighting("CompoundSewer", 0.0);
     return true;
 }
 
@@ -72,6 +54,5 @@ void InitTriggers () {
 //--------------------------------------------------------------------------------------------------
 void InitMap () {
     InitLibs();
-    InitGlobals();
     InitTriggers();
 }

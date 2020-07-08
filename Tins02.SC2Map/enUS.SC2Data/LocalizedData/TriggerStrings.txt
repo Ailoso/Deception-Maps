@@ -1,3 +1,1 @@
-﻿Category/Name/5C5CACC8=Test Mission
-Trigger/Name/E67D8016=Melee Initialization
-Variable/Name/BBC6A183=ZealotGroup
+﻿Trigger/Name/E67D8016=Melee Initialization
