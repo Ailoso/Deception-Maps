@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <terrain version="114">
-    <heightMap tileSet="MoebiusLab" uvtiling="24.000000 17.250000 3.750000 -6.750000 " dim="257 185 " offset="0.000000 0.000000 0.000000 " scale="1.000000e+00 1.000000e+00 1.000000e+00 ">
+    <heightMap tileSet="BattleStation" uvtiling="24.000000 17.250000 3.750000 -6.750000 " dim="257 185 " offset="0.000000 0.000000 0.000000 " scale="1.000000e+00 1.000000e+00 1.000000e+00 ">
         <cliffSetList num="1">
-            <cliffSet i="0" name="MoebiusLabCliff0"/>
+            <cliffSet i="0" name="KorhalPlatformEx2"/>
         </cliffSetList>
-        <vertData quantizeBias="9.000657e+00" quantizeScale="2.746699e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
+        <vertData quantizeBias="8.000000e+00" quantizeScale="2.593998e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
         <masks name="t3TextureMasks"/>
         <textureSetList num="8">
-            <textureSet i="0" name="MoebiusLab"/>
+            <textureSet i="0" name="BattleStation"/>
             <textureSet i="1" name=""/>
             <textureSet i="2" name=""/>
             <textureSet i="3" name=""/>
@@ -17,14 +17,14 @@
             <textureSet i="7" name=""/>
         </textureSetList>
         <textureList num="64">
-            <texture i="0" name="MoebiusLab1"/>
-            <texture i="1" name="MoebiusLab2"/>
-            <texture i="2" name="MoebiusLab3"/>
-            <texture i="3" name="MoebiusLab4"/>
-            <texture i="4" name="MoebiusLab5"/>
-            <texture i="5" name="MoebiusLab6"/>
-            <texture i="6" name="MoebiusLab7"/>
-            <texture i="7" name="MoebiusLab8"/>
+            <texture i="0" name="BattleStation_1"/>
+            <texture i="1" name="BattleStation_2"/>
+            <texture i="2" name="BattleStation_3"/>
+            <texture i="3" name="BattleStation_4"/>
+            <texture i="4" name="BattleStation_5"/>
+            <texture i="5" name="BattleStation_6"/>
+            <texture i="6" name="BattleStation_7"/>
+            <texture i="7" name="BattleStation_8"/>
             <texture i="8" name=""/>
             <texture i="9" name=""/>
             <texture i="10" name=""/>
@@ -820,276 +820,295 @@
             <blockTextureSet i="734" tileSet="0"/>
             <blockTextureSet i="735" tileSet="0"/>
         </blockTextureSetList>
-        <cliffCellList num="11776" numOccupied="269">
-            <cc i="7569" f="1" cid="0" cvar="3"/>
+        <cliffCellList num="11776" numOccupied="288">
+            <cc i="7569" f="1" cid="0" cvar="0"/>
             <cc i="7570" f="1" cid="0" cvar="0"/>
-            <cc i="7571" f="1" cid="0" cvar="2"/>
+            <cc i="7571" f="1" cid="0" cvar="0"/>
             <cc i="7695" f="1" cid="0" cvar="0"/>
             <cc i="7696" f="1" cid="0" cvar="1"/>
-            <cc i="7697" f="1" cid="0" cvar="1"/>
-            <cc i="7699" f="1" cid="0" cvar="1"/>
+            <cc i="7697" f="1" cid="0" cvar="0"/>
+            <cc i="7699" f="1" cid="0" cvar="0"/>
             <cc i="7700" f="1" cid="0" cvar="2"/>
             <cc i="7701" f="1" cid="0" cvar="0"/>
-            <cc i="7822" f="1" cid="0" cvar="2"/>
-            <cc i="7823" f="1" cid="0" cvar="3"/>
-            <cc i="7825" f="1" cid="0" cvar="1"/>
+            <cc i="7822" f="1" cid="0" cvar="0"/>
+            <cc i="7823" f="1" cid="0" cvar="0"/>
+            <cc i="7825" f="1" cid="0" cvar="0"/>
             <cc i="7826" f="1" cid="0" cvar="0"/>
             <cc i="7827" f="1" cid="0" cvar="3"/>
             <cc i="7828" f="1" cid="0" cvar="0"/>
-            <cc i="7829" f="1" cid="0" cvar="2"/>
+            <cc i="7829" f="1" cid="0" cvar="0"/>
             <cc i="7830" f="1" cid="0" cvar="0"/>
             <cc i="7831" f="1" cid="0" cvar="0"/>
             <cc i="7949" f="1" cid="0" cvar="0"/>
-            <cc i="7950" f="1" cid="0" cvar="2"/>
+            <cc i="7950" f="1" cid="0" cvar="0"/>
             <cc i="7952" f="1" cid="0" cvar="0"/>
             <cc i="7953" f="1" cid="0" cvar="0"/>
             <cc i="7956" f="1" cid="0" cvar="0"/>
-            <cc i="7957" f="1" cid="0" cvar="2"/>
+            <cc i="7957" f="1" cid="0" cvar="0"/>
             <cc i="7959" f="1" cid="0" cvar="0"/>
             <cc i="7960" f="1" cid="0" cvar="0"/>
-            <cc i="8075" f="1" cid="0" cvar="2"/>
+            <cc i="8075" f="1" cid="0" cvar="0"/>
             <cc i="8076" f="1" cid="0" cvar="3"/>
-            <cc i="8077" f="1" cid="0" cvar="2"/>
-            <cc i="8080" f="1" cid="0" cvar="2"/>
+            <cc i="8077" f="1" cid="0" cvar="0"/>
+            <cc i="8080" f="1" cid="0" cvar="0"/>
             <cc i="8081" f="1" cid="0" cvar="0"/>
-            <cc i="8085" f="1" cid="0" cvar="3"/>
-            <cc i="8086" f="1" cid="0" cvar="1"/>
+            <cc i="8085" f="1" cid="0" cvar="0"/>
+            <cc i="8086" f="1" cid="0" cvar="0"/>
             <cc i="8088" f="1" cid="0" cvar="2"/>
             <cc i="8202" f="1" cid="0" cvar="0"/>
-            <cc i="8203" f="1" cid="0" cvar="2"/>
+            <cc i="8203" f="1" cid="0" cvar="0"/>
             <cc i="8209" f="1" cid="0" cvar="0"/>
-            <cc i="8210" f="1" cid="0" cvar="3"/>
-            <cc i="8214" f="1" cid="0" cvar="1"/>
-            <cc i="8215" f="1" cid="0" cvar="1"/>
+            <cc i="8210" f="1" cid="0" cvar="0"/>
+            <cc i="8214" f="1" cid="0" cvar="0"/>
+            <cc i="8215" f="1" cid="0" cvar="0"/>
             <cc i="8216" f="1" cid="0" cvar="0"/>
             <cc i="8330" f="1" cid="0" cvar="1"/>
-            <cc i="8335" f="1" cid="0" cvar="2"/>
+            <cc i="8335" f="1" cid="0" cvar="0"/>
             <cc i="8336" f="1" cid="0" cvar="1"/>
-            <cc i="8337" f="1" cid="0" cvar="1"/>
+            <cc i="8337" f="1" cid="0" cvar="0"/>
             <cc i="8338" f="1" cid="0" cvar="3"/>
             <cc i="8343" f="1" cid="0" cvar="0"/>
             <cc i="8344" f="1" cid="0" cvar="2"/>
-            <cc i="8457" f="1" cid="0" cvar="3"/>
-            <cc i="8458" f="1" cid="0" cvar="1"/>
+            <cc i="8457" f="1" cid="0" cvar="0"/>
+            <cc i="8458" f="1" cid="0" cvar="0"/>
             <cc i="8462" f="1" cid="0" cvar="0"/>
-            <cc i="8463" f="1" cid="0" cvar="2"/>
+            <cc i="8463" f="1" cid="0" cvar="0"/>
             <cc i="8465" f="1" cid="0" cvar="0"/>
-            <cc i="8466" f="1" cid="0" cvar="1"/>
+            <cc i="8466" f="1" cid="0" cvar="0"/>
             <cc i="8470" f="1" cid="0" cvar="0"/>
             <cc i="8471" f="1" cid="0" cvar="0"/>
             <cc i="8472" f="1" cid="0" cvar="3"/>
-            <cc i="8584" f="1" cid="0" cvar="2"/>
+            <cc i="8584" f="1" cid="0" cvar="0"/>
             <cc i="8585" f="1" cid="0" cvar="0"/>
             <cc i="8590" f="1" cid="0" cvar="1"/>
-            <cc i="8596" f="1" cid="0" cvar="2"/>
+            <cc i="8596" f="1" cid="0" cvar="0"/>
             <cc i="8597" f="1" cid="0" cvar="1"/>
-            <cc i="8598" f="1" cid="0" cvar="2"/>
-            <cc i="8599" f="1" cid="0" cvar="1"/>
-            <cc i="8600" f="1" cid="0" cvar="1"/>
+            <cc i="8598" f="1" cid="0" cvar="0"/>
+            <cc i="8599" f="1" cid="0" cvar="0"/>
+            <cc i="8600" f="1" cid="0" cvar="0"/>
             <cc i="8711" f="1" cid="0" cvar="0"/>
-            <cc i="8712" f="1" cid="0" cvar="3"/>
-            <cc i="8717" f="1" cid="0" cvar="1"/>
-            <cc i="8718" f="1" cid="0" cvar="1"/>
+            <cc i="8712" f="1" cid="0" cvar="0"/>
+            <cc i="8717" f="1" cid="0" cvar="0"/>
+            <cc i="8718" f="1" cid="0" cvar="0"/>
             <cc i="8724" f="1" cid="0" cvar="2"/>
-            <cc i="8727" f="1" cid="0" cvar="1"/>
-            <cc i="8728" f="1" cid="0" cvar="3"/>
-            <cc i="8838" f="1" cid="0" cvar="2"/>
-            <cc i="8839" f="1" cid="0" cvar="1"/>
-            <cc i="8843" f="1" cid="0" cvar="1"/>
+            <cc i="8727" f="1" cid="0" cvar="0"/>
+            <cc i="8728" f="1" cid="0" cvar="0"/>
+            <cc i="8838" f="1" cid="0" cvar="0"/>
+            <cc i="8839" f="1" cid="0" cvar="0"/>
+            <cc i="8843" f="1" cid="0" cvar="0"/>
             <cc i="8844" f="1" cid="0" cvar="0"/>
-            <cc i="8845" f="1" cid="0" cvar="3"/>
-            <cc i="8852" f="1" cid="0" cvar="3"/>
+            <cc i="8845" f="1" cid="0" cvar="0"/>
+            <cc i="8852" f="1" cid="0" cvar="0"/>
             <cc i="8853" f="1" cid="0" cvar="0"/>
-            <cc i="8856" f="1" cid="0" cvar="1"/>
-            <cc i="8857" f="1" cid="0" cvar="3"/>
-            <cc i="8965" f="1" cid="0" cvar="1"/>
-            <cc i="8966" f="1" cid="0" cvar="2"/>
-            <cc i="8970" f="1" cid="0" cvar="1"/>
-            <cc i="8971" f="1" cid="0" cvar="2"/>
-            <cc i="8980" f="1" cid="0" cvar="3"/>
+            <cc i="8856" f="1" cid="0" cvar="0"/>
+            <cc i="8857" f="1" cid="0" cvar="0"/>
+            <cc i="8965" f="1" cid="0" cvar="0"/>
+            <cc i="8966" f="1" cid="0" cvar="0"/>
+            <cc i="8970" f="1" cid="0" cvar="0"/>
+            <cc i="8971" f="1" cid="0" cvar="0"/>
+            <cc i="8980" f="1" cid="0" cvar="0"/>
             <cc i="8981" f="1" cid="0" cvar="0"/>
-            <cc i="8985" f="1" cid="0" cvar="3"/>
-            <cc i="8986" f="1" cid="0" cvar="3"/>
-            <cc i="9092" f="1" cid="0" cvar="3"/>
-            <cc i="9093" f="1" cid="0" cvar="2"/>
-            <cc i="9098" f="1" cid="0" cvar="2"/>
+            <cc i="8985" f="1" cid="0" cvar="0"/>
+            <cc i="8986" f="1" cid="0" cvar="0"/>
+            <cc i="9092" f="1" cid="0" cvar="0"/>
+            <cc i="9093" f="1" cid="0" cvar="0"/>
+            <cc i="9098" f="1" cid="0" cvar="1"/>
             <cc i="9106" f="1" cid="0" cvar="0"/>
             <cc i="9107" f="1" cid="0" cvar="0"/>
             <cc i="9108" f="1" cid="0" cvar="0"/>
             <cc i="9114" f="1" cid="0" cvar="0"/>
-            <cc i="9115" f="1" cid="0" cvar="2"/>
+            <cc i="9115" f="1" cid="0" cvar="0"/>
             <cc i="9220" f="1" cid="0" cvar="0"/>
+            <cc i="9224" f="1" cid="0" cvar="0"/>
+            <cc i="9225" f="1" cid="0" cvar="2"/>
             <cc i="9226" f="1" cid="0" cvar="0"/>
-            <cc i="9227" f="1" cid="0" cvar="1"/>
+            <cc i="9227" f="1" cid="0" cvar="3"/>
             <cc i="9228" f="1" cid="0" cvar="0"/>
             <cc i="9234" f="1" cid="0" cvar="0"/>
             <cc i="9235" f="1" cid="0" cvar="0"/>
-            <cc i="9242" f="1" cid="0" cvar="2"/>
+            <cc i="9242" f="1" cid="0" cvar="0"/>
             <cc i="9243" f="1" cid="0" cvar="0"/>
             <cc i="9348" f="1" cid="0" cvar="0"/>
+            <cc i="9352" f="1" cid="0" cvar="2"/>
             <cc i="9356" f="1" cid="0" cvar="0"/>
             <cc i="9357" f="1" cid="0" cvar="0"/>
-            <cc i="9361" f="1" cid="0" cvar="3"/>
+            <cc i="9361" f="1" cid="0" cvar="0"/>
             <cc i="9362" f="1" cid="0" cvar="0"/>
             <cc i="9365" f="1" cid="0" cvar="0"/>
-            <cc i="9366" f="1" cid="0" cvar="0"/>
-            <cc i="9367" f="1" cid="0" cvar="2"/>
+            <cc i="9366" f="1" cid="0" cvar="2"/>
+            <cc i="9367" f="1" cid="0" cvar="1"/>
             <cc i="9368" f="1" cid="0" cvar="0"/>
-            <cc i="9371" f="1" cid="0" cvar="3"/>
-            <cc i="9372" f="1" cid="0" cvar="3"/>
-            <cc i="9476" f="1" cid="0" cvar="2"/>
+            <cc i="9371" f="1" cid="0" cvar="0"/>
+            <cc i="9372" f="1" cid="0" cvar="0"/>
+            <cc i="9476" f="1" cid="0" cvar="0"/>
             <cc i="9477" f="1" cid="0" cvar="2"/>
             <cc i="9478" f="1" cid="0" cvar="0"/>
-            <cc i="9485" f="1" cid="0" cvar="2"/>
-            <cc i="9486" f="1" cid="0" cvar="3"/>
-            <cc i="9489" f="1" cid="0" cvar="1"/>
+            <cc i="9480" f="1" cid="0" cvar="0"/>
+            <cc i="9485" f="1" cid="0" cvar="0"/>
+            <cc i="9486" f="1" cid="0" cvar="0"/>
+            <cc i="9489" f="1" cid="0" cvar="0"/>
             <cc i="9490" f="1" cid="0" cvar="0"/>
-            <cc i="9492" f="1" cid="0" cvar="1"/>
-            <cc i="9493" f="1" cid="0" cvar="2"/>
-            <cc i="9496" f="1" cid="0" cvar="1"/>
-            <cc i="9497" f="1" cid="0" cvar="2"/>
-            <cc i="9500" f="1" cid="0" cvar="2"/>
+            <cc i="9492" f="1" cid="0" cvar="0"/>
+            <cc i="9493" f="1" cid="0" cvar="0"/>
+            <cc i="9496" f="1" cid="0" cvar="0"/>
+            <cc i="9497" f="1" cid="0" cvar="0"/>
+            <cc i="9498" f="1" cid="0" cvar="0"/>
+            <cc i="9499" f="1" cid="0" cvar="3"/>
+            <cc i="9500" f="1" cid="0" cvar="0"/>
             <cc i="9606" f="1" cid="0" cvar="0"/>
             <cc i="9607" f="1" cid="0" cvar="0"/>
-            <cc i="9614" f="1" cid="0" cvar="2"/>
-            <cc i="9615" f="1" cid="0" cvar="2"/>
-            <cc i="9616" f="1" cid="0" cvar="3"/>
-            <cc i="9618" f="1" cid="0" cvar="2"/>
-            <cc i="9619" f="1" cid="0" cvar="3"/>
-            <cc i="9620" f="1" cid="0" cvar="1"/>
-            <cc i="9624" f="1" cid="0" cvar="2"/>
+            <cc i="9608" f="1" cid="0" cvar="0"/>
+            <cc i="9609" f="1" cid="0" cvar="0"/>
+            <cc i="9614" f="1" cid="0" cvar="0"/>
+            <cc i="9615" f="1" cid="0" cvar="0"/>
+            <cc i="9616" f="1" cid="0" cvar="0"/>
+            <cc i="9618" f="1" cid="0" cvar="0"/>
+            <cc i="9619" f="1" cid="0" cvar="0"/>
+            <cc i="9620" f="1" cid="0" cvar="0"/>
+            <cc i="9622" f="1" cid="0" cvar="0"/>
+            <cc i="9623" f="1" cid="0" cvar="0"/>
             <cc i="9625" f="1" cid="0" cvar="0"/>
+            <cc i="9626" f="1" cid="0" cvar="0"/>
             <cc i="9628" f="1" cid="0" cvar="0"/>
-            <cc i="9735" f="1" cid="0" cvar="2"/>
-            <cc i="9736" f="1" cid="0" cvar="1"/>
-            <cc i="9744" f="1" cid="0" cvar="1"/>
-            <cc i="9745" f="1" cid="0" cvar="3"/>
+            <cc i="9629" f="1" cid="0" cvar="0"/>
+            <cc i="9735" f="1" cid="0" cvar="0"/>
+            <cc i="9736" f="1" cid="0" cvar="0"/>
+            <cc i="9737" f="1" cid="0" cvar="0"/>
+            <cc i="9738" f="1" cid="0" cvar="0"/>
+            <cc i="9742" f="1" cid="0" cvar="0"/>
+            <cc i="9744" f="1" cid="0" cvar="0"/>
+            <cc i="9745" f="1" cid="0" cvar="0"/>
             <cc i="9749" f="1" cid="0" cvar="0"/>
-            <cc i="9750" f="1" cid="0" cvar="2"/>
+            <cc i="9750" f="1" cid="0" cvar="0"/>
             <cc i="9751" f="1" cid="0" cvar="0"/>
-            <cc i="9752" f="1" cid="0" cvar="2"/>
-            <cc i="9753" f="1" cid="0" cvar="1"/>
-            <cc i="9754" f="1" cid="0" cvar="3"/>
-            <cc i="9756" f="1" cid="0" cvar="3"/>
-            <cc i="9757" f="1" cid="0" cvar="1"/>
-            <cc i="9864" f="1" cid="0" cvar="3"/>
-            <cc i="9865" f="1" cid="0" cvar="3"/>
-            <cc i="9866" f="1" cid="0" cvar="3"/>
-            <cc i="9873" f="1" cid="0" cvar="0"/>
-            <cc i="9876" f="1" cid="0" cvar="1"/>
-            <cc i="9877" f="1" cid="0" cvar="2"/>
-            <cc i="9878" f="1" cid="0" cvar="0"/>
+            <cc i="9752" f="1" cid="0" cvar="0"/>
+            <cc i="9756" f="1" cid="0" cvar="0"/>
+            <cc i="9757" f="1" cid="0" cvar="0"/>
+            <cc i="9864" f="1" cid="0" cvar="0"/>
+            <cc i="9865" f="1" cid="0" cvar="1"/>
+            <cc i="9866" f="1" cid="0" cvar="0"/>
+            <cc i="9867" f="1" cid="0" cvar="0"/>
+            <cc i="9868" f="1" cid="0" cvar="1"/>
+            <cc i="9869" f="1" cid="0" cvar="2"/>
+            <cc i="9870" f="1" cid="0" cvar="0"/>
+            <cc i="9873" f="1" cid="0" cvar="3"/>
+            <cc i="9876" f="1" cid="0" cvar="0"/>
+            <cc i="9877" f="1" cid="0" cvar="0"/>
             <cc i="9879" f="1" cid="0" cvar="0"/>
-            <cc i="9880" f="1" cid="0" cvar="2"/>
-            <cc i="9881" f="1" cid="0" cvar="2"/>
-            <cc i="9882" f="1" cid="0" cvar="0"/>
-            <cc i="9885" f="1" cid="0" cvar="2"/>
-            <cc i="9994" f="1" cid="0" cvar="2"/>
+            <cc i="9880" f="1" cid="0" cvar="0"/>
+            <cc i="9884" f="1" cid="0" cvar="2"/>
+            <cc i="9994" f="1" cid="0" cvar="0"/>
             <cc i="9995" f="1" cid="0" cvar="0"/>
             <cc i="10000" f="1" cid="0" cvar="0"/>
-            <cc i="10001" f="1" cid="0" cvar="1"/>
+            <cc i="10001" f="1" cid="0" cvar="0"/>
             <cc i="10003" f="1" cid="0" cvar="0"/>
             <cc i="10004" f="1" cid="0" cvar="0"/>
-            <cc i="10005" f="1" cid="0" cvar="0"/>
-            <cc i="10006" f="1" cid="0" cvar="2"/>
+            <cc i="10006" f="1" cid="0" cvar="0"/>
             <cc i="10007" f="1" cid="0" cvar="0"/>
-            <cc i="10010" f="1" cid="0" cvar="0"/>
-            <cc i="10013" f="1" cid="0" cvar="2"/>
+            <cc i="10008" f="1" cid="0" cvar="0"/>
+            <cc i="10011" f="1" cid="0" cvar="0"/>
+            <cc i="10012" f="1" cid="0" cvar="0"/>
             <cc i="10123" f="1" cid="0" cvar="1"/>
             <cc i="10127" f="1" cid="0" cvar="0"/>
-            <cc i="10128" f="1" cid="0" cvar="2"/>
+            <cc i="10128" f="1" cid="0" cvar="0"/>
             <cc i="10130" f="1" cid="0" cvar="0"/>
             <cc i="10131" f="1" cid="0" cvar="0"/>
-            <cc i="10132" f="1" cid="0" cvar="3"/>
-            <cc i="10133" f="1" cid="0" cvar="2"/>
+            <cc i="10133" f="1" cid="0" cvar="0"/>
             <cc i="10134" f="1" cid="0" cvar="0"/>
             <cc i="10135" f="1" cid="0" cvar="0"/>
             <cc i="10138" f="1" cid="0" cvar="0"/>
-            <cc i="10139" f="1" cid="0" cvar="2"/>
-            <cc i="10140" f="1" cid="0" cvar="1"/>
-            <cc i="10141" f="1" cid="0" cvar="0"/>
-            <cc i="10250" f="1" cid="0" cvar="1"/>
+            <cc i="10139" f="1" cid="0" cvar="0"/>
+            <cc i="10250" f="1" cid="0" cvar="0"/>
             <cc i="10251" f="1" cid="0" cvar="0"/>
             <cc i="10254" f="1" cid="0" cvar="0"/>
             <cc i="10255" f="1" cid="0" cvar="0"/>
-            <cc i="10257" f="1" cid="0" cvar="3"/>
-            <cc i="10258" f="1" cid="0" cvar="2"/>
-            <cc i="10259" f="1" cid="0" cvar="1"/>
-            <cc i="10260" f="1" cid="0" cvar="1"/>
-            <cc i="10261" f="1" cid="0" cvar="1"/>
-            <cc i="10262" f="1" cid="0" cvar="3"/>
+            <cc i="10257" f="1" cid="0" cvar="0"/>
+            <cc i="10258" f="1" cid="0" cvar="0"/>
+            <cc i="10260" f="1" cid="0" cvar="0"/>
+            <cc i="10261" f="1" cid="0" cvar="0"/>
+            <cc i="10265" f="1" cid="0" cvar="0"/>
+            <cc i="10266" f="1" cid="0" cvar="0"/>
             <cc i="10267" f="1" cid="0" cvar="0"/>
-            <cc i="10268" f="1" cid="0" cvar="3"/>
             <cc i="10378" f="1" cid="0" cvar="2"/>
-            <cc i="10381" f="1" cid="0" cvar="1"/>
+            <cc i="10381" f="1" cid="0" cvar="0"/>
             <cc i="10382" f="1" cid="0" cvar="0"/>
-            <cc i="10384" f="1" cid="0" cvar="1"/>
+            <cc i="10384" f="1" cid="0" cvar="0"/>
             <cc i="10385" f="1" cid="0" cvar="0"/>
-            <cc i="10386" f="1" cid="0" cvar="3"/>
+            <cc i="10386" f="1" cid="0" cvar="0"/>
             <cc i="10387" f="1" cid="0" cvar="3"/>
             <cc i="10388" f="1" cid="0" cvar="0"/>
-            <cc i="10389" f="1" cid="0" cvar="2"/>
-            <cc i="10395" f="1" cid="0" cvar="3"/>
-            <cc i="10396" f="1" cid="0" cvar="1"/>
-            <cc i="10506" f="1" cid="0" cvar="3"/>
+            <cc i="10389" f="1" cid="0" cvar="0"/>
+            <cc i="10392" f="1" cid="0" cvar="0"/>
+            <cc i="10393" f="1" cid="0" cvar="0"/>
+            <cc i="10394" f="1" cid="0" cvar="0"/>
+            <cc i="10395" f="1" cid="0" cvar="0"/>
+            <cc i="10396" f="1" cid="0" cvar="0"/>
+            <cc i="10506" f="1" cid="0" cvar="0"/>
             <cc i="10507" f="1" cid="0" cvar="3"/>
-            <cc i="10508" f="1" cid="0" cvar="1"/>
+            <cc i="10508" f="1" cid="0" cvar="0"/>
             <cc i="10509" f="1" cid="0" cvar="0"/>
             <cc i="10510" f="1" cid="0" cvar="1"/>
             <cc i="10511" f="1" cid="0" cvar="2"/>
-            <cc i="10512" f="1" cid="0" cvar="1"/>
-            <cc i="10513" f="1" cid="0" cvar="1"/>
-            <cc i="10514" f="1" cid="0" cvar="3"/>
+            <cc i="10512" f="1" cid="0" cvar="0"/>
+            <cc i="10513" f="1" cid="0" cvar="0"/>
+            <cc i="10514" f="1" cid="0" cvar="0"/>
             <cc i="10515" f="1" cid="0" cvar="0"/>
-            <cc i="10516" f="1" cid="0" cvar="1"/>
+            <cc i="10516" f="1" cid="0" cvar="0"/>
+            <cc i="10517" f="1" cid="0" cvar="0"/>
+            <cc i="10518" f="1" cid="0" cvar="0"/>
+            <cc i="10519" f="1" cid="0" cvar="0"/>
+            <cc i="10520" f="1" cid="0" cvar="0"/>
+            <cc i="10521" f="1" cid="0" cvar="0"/>
             <cc i="10522" f="1" cid="0" cvar="0"/>
-            <cc i="10523" f="1" cid="0" cvar="1"/>
-            <cc i="10524" f="1" cid="0" cvar="0"/>
-            <cc i="10636" f="1" cid="0" cvar="1"/>
-            <cc i="10637" f="1" cid="0" cvar="3"/>
-            <cc i="10641" f="1" cid="0" cvar="0"/>
-            <cc i="10643" f="1" cid="0" cvar="0"/>
+            <cc i="10523" f="1" cid="0" cvar="0"/>
+            <cc i="10524" f="1" cid="0" cvar="2"/>
+            <cc i="10636" f="1" cid="0" cvar="0"/>
+            <cc i="10637" f="1" cid="0" cvar="0"/>
+            <cc i="10641" f="1" cid="0" cvar="3"/>
+            <cc i="10643" f="1" cid="0" cvar="2"/>
+            <cc i="10647" f="1" cid="0" cvar="0"/>
+            <cc i="10648" f="1" cid="0" cvar="3"/>
             <cc i="10649" f="1" cid="0" cvar="0"/>
-            <cc i="10650" f="1" cid="0" cvar="3"/>
-            <cc i="10651" f="1" cid="0" cvar="2"/>
-            <cc i="10652" f="1" cid="0" cvar="3"/>
-            <cc i="10765" f="1" cid="0" cvar="1"/>
-            <cc i="10766" f="1" cid="0" cvar="2"/>
-            <cc i="10769" f="1" cid="0" cvar="1"/>
+            <cc i="10650" f="1" cid="0" cvar="0"/>
+            <cc i="10651" f="1" cid="0" cvar="0"/>
+            <cc i="10652" f="1" cid="0" cvar="0"/>
+            <cc i="10765" f="1" cid="0" cvar="0"/>
+            <cc i="10766" f="1" cid="0" cvar="0"/>
+            <cc i="10769" f="1" cid="0" cvar="0"/>
             <cc i="10770" f="1" cid="0" cvar="0"/>
             <cc i="10771" f="1" cid="0" cvar="0"/>
-            <cc i="10775" f="1" cid="0" cvar="2"/>
-            <cc i="10776" f="1" cid="0" cvar="0"/>
+            <cc i="10775" f="1" cid="0" cvar="0"/>
+            <cc i="10776" f="1" cid="0" cvar="2"/>
             <cc i="10777" f="1" cid="0" cvar="0"/>
             <cc i="10778" f="1" cid="0" cvar="0"/>
-            <cc i="10779" f="1" cid="0" cvar="1"/>
-            <cc i="10894" f="1" cid="0" cvar="1"/>
+            <cc i="10779" f="1" cid="0" cvar="0"/>
+            <cc i="10894" f="1" cid="0" cvar="0"/>
             <cc i="10895" f="1" cid="0" cvar="3"/>
             <cc i="10896" f="1" cid="0" cvar="1"/>
             <cc i="10897" f="1" cid="0" cvar="0"/>
             <cc i="10898" f="1" cid="0" cvar="0"/>
-            <cc i="10899" f="1" cid="0" cvar="1"/>
+            <cc i="10899" f="1" cid="0" cvar="0"/>
             <cc i="10900" f="1" cid="0" cvar="0"/>
-            <cc i="10901" f="1" cid="0" cvar="1"/>
+            <cc i="10901" f="1" cid="0" cvar="3"/>
             <cc i="10902" f="1" cid="0" cvar="2"/>
-            <cc i="10903" f="1" cid="0" cvar="3"/>
-            <cc i="10904" f="1" cid="0" cvar="1"/>
+            <cc i="10903" f="1" cid="0" cvar="0"/>
+            <cc i="10904" f="1" cid="0" cvar="0"/>
             <cc i="10905" f="1" cid="0" cvar="0"/>
-            <cc i="10906" f="1" cid="0" cvar="1"/>
+            <cc i="10906" f="1" cid="0" cvar="0"/>
             <cc i="11025" f="1" cid="0" cvar="2"/>
-            <cc i="11026" f="1" cid="0" cvar="2"/>
-            <cc i="11027" f="1" cid="0" cvar="2"/>
+            <cc i="11026" f="1" cid="0" cvar="0"/>
+            <cc i="11027" f="1" cid="0" cvar="1"/>
             <cc i="11028" f="1" cid="0" cvar="0"/>
-            <cc i="11029" f="1" cid="0" cvar="1"/>
+            <cc i="11029" f="1" cid="0" cvar="0"/>
             <cc i="11030" f="1" cid="0" cvar="0"/>
-            <cc i="11031" f="1" cid="0" cvar="2"/>
+            <cc i="11031" f="1" cid="0" cvar="0"/>
             <cc i="11032" f="1" cid="0" cvar="0"/>
             <cc i="11153" f="1" cid="0" cvar="0"/>
             <cc i="11154" f="1" cid="0" cvar="3"/>
             <cc i="11155" f="1" cid="0" cvar="1"/>
             <cc i="11156" f="1" cid="0" cvar="0"/>
             <cc i="11157" f="1" cid="0" cvar="0"/>
-            <cc i="11158" f="1" cid="0" cvar="3"/>
+            <cc i="11158" f="1" cid="0" cvar="0"/>
         </cliffCellList>
     </heightMap>
 </terrain>

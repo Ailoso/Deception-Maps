@@ -31,7 +31,8 @@ bool gt_MeleeInitialization_Func (bool testConds, bool runActions) {
         return true;
     }
 
-    libAE8FC9D3_gf_AwardAchievement("Tins00 - Objectives", 1);
+    libAE8FC9D3_gf_InitializeAchievements();
+    libAE8FC9D3_gf_AwardAchievement("TestAchievement", 1);
     return true;
 }
 

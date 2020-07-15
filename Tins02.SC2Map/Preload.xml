@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preload>
 <Actor id="SYSTEM_ActorConfig"/>
-<Actor id="CompoundSewers_FuelingPipes" Variations="14"/>
+<Actor id="CompoundSewers_ExhaustPipes" Variations="1,4,7"/>
+<Actor id="CompoundSewers_FuelingPipes" Variations="1,6,14"/>
 <Actor id="CompoundSewers_Vent"/>
 <Actor id="DOM_Crate" Variations="2,3,4"/>
 <Actor id="DOM_Rocket" Variations="0,1,2"/>
 <Actor id="JarbanMinor_Crate" Variations="1,2,3,4,5"/>
 <Actor id="JarbanMinor_Pallete_Large" Variations="0,1,2"/>
 <Actor id="SpaceGunRack" Variations="2,3,4"/>
+<Actor id="Tarsonis_Bridge_DiagonalAlt"/>
 <Actor id="Tarsonis_GroundTrims" Variations="1,2,3,4,5,6,8,9"/>
 <Actor id="Tarsonis_VentLight"/>
 <Actor id="CastanarCabinet" Variations="5"/>
 <Actor id="Crate" Variations="5"/>
 <Light id="CompoundSewer"/>
-<Terrain id="MoebiusLab"/>
-<Unit id="Zealot"/>
+<Terrain id="BattleStation"/>
 <Unit id="HybridDoorsThinRight"/>
+<Unit id="NovaTripWire"/>
 <Unit id="Kefren"/>
 </Preload>

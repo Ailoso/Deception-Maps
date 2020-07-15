@@ -5,23 +5,27 @@
     </Root>
     <Element Type="Trigger" Id="56B484B4">
         <Event Type="FunctionCall" Id="4854C4DD"/>
-        <Action Type="FunctionCall" Id="66088F8B"/>
+        <Action Type="FunctionCall" Id="A9327C99"/>
+        <Action Type="FunctionCall" Id="A55852AE"/>
     </Element>
     <Element Type="FunctionCall" Id="4854C4DD">
         <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000120"/>
     </Element>
-    <Element Type="FunctionCall" Id="66088F8B">
-        <FunctionDef Type="FunctionDef" Library="AE8FC9D3" Id="A995461D"/>
-        <Parameter Type="Param" Id="5C9AB45F"/>
-        <Parameter Type="Param" Id="9D73AE55"/>
+    <Element Type="FunctionCall" Id="A9327C99">
+        <FunctionDef Type="FunctionDef" Library="AE8FC9D3" Id="B971A739"/>
     </Element>
-    <Element Type="Param" Id="5C9AB45F">
+    <Element Type="FunctionCall" Id="A55852AE">
+        <FunctionDef Type="FunctionDef" Library="AE8FC9D3" Id="A995461D"/>
+        <Parameter Type="Param" Id="59136941"/>
+        <Parameter Type="Param" Id="570A0582"/>
+    </Element>
+    <Element Type="Param" Id="59136941">
         <ParameterDef Type="ParamDef" Library="AE8FC9D3" Id="15A0B12A"/>
-        <Value>Tins00 - Objectives</Value>
+        <Value>TestAchievement</Value>
         <ValueType Type="userinstance"/>
         <ValueContext Value="Achievements"/>
     </Element>
-    <Element Type="Param" Id="9D73AE55">
+    <Element Type="Param" Id="570A0582">
         <ParameterDef Type="ParamDef" Library="AE8FC9D3" Id="2F19336B"/>
         <Value>1</Value>
         <ValueType Type="int"/>

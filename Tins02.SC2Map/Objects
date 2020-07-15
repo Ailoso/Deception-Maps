@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PlacedObjects Version="27">
-    <ObjectCamera Id="1595304831" Position="29.838,141.934,0" Rotation="3.127" Scale="1,1,1" Name="ChoiceCamera" Color="0,0,0,0" CameraTarget="29.838,141.934">
+    <ObjectCamera Id="1595304831" Position="29.838,141.934,0" Rotation="3.1267" Scale="1,1,1" Name="ChoiceCamera" Color="0,0,0,0" CameraTarget="29.838,141.934">
         <CameraValue Index="FieldOfView" Value="27.7998"/>
         <CameraValue Index="NearClip" Value="0.0998"/>
         <CameraValue Index="FarClip" Value="20000"/>
         <CameraValue Index="ShadowClip" Value="75"/>
         <CameraValue Index="Distance" Value="23.2224"/>
         <CameraValue Index="Pitch" Value="40.6806"/>
-        <CameraValue Index="Yaw" Value="179.175"/>
+        <CameraValue Index="Yaw" Value="179.1611"/>
         <CameraValue Index="HeightOffset" Value="-0.75"/>
         <CameraValue Index="FocalDepth" Value="8"/>
         <CameraValue Index="FalloffEnd" Value="8"/>
     </ObjectCamera>
-    <ObjectUnit Id="156152520" Position="43.423,157.7578,0" Rotation="5.4135" Scale="1,1,1" UnitType="Zealot" Player="2"/>
-    <ObjectUnit Id="1144841380" Position="32.486,133.951,0" Rotation="2.9626" Scale="1,1,1" UnitType="Kefren" Player="1"/>
-    <ObjectUnit Id="774626677" Position="41.801,159.5854,0" Rotation="5.5832" Scale="1,1,1" UnitType="Zealot" Player="2"/>
-    <ObjectUnit Id="1248226017" Position="41.7807,157.2487,0" Rotation="5.4663" Scale="1,1,1" UnitType="Zealot" Player="2"/>
+    <ObjectUnit Id="1144841380" Position="32.5373,133.9323,0" Rotation="2.9626" Scale="1,1,1" UnitType="Kefren" Player="1"/>
+    <ObjectUnit Id="1088320710" Position="46.772,151.1906,0" Rotation="6.1828" Scale="1,1,1" UnitType="NovaTripWire" Player="1"/>
     <ObjectUnit Id="1262763499" Position="38.5,134.5,0" Rotation="0.7851" Scale="1,1,1" UnitType="HybridDoorsThinRight" Player="1"/>
     <ObjectDoodad Id="1670368682" Variation="9" Position="31.9057,139.3825,9.9997" Rotation="0.8361" Scale="1,1,1" Type="Tarsonis_GroundTrims">
         <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1455110624" Variation="6" Position="41.881,149.7368,10.709" Rotation="2.3557" Scale="1,1,1" Type="CompoundSewers_FuelingPipes">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1977957338" Variation="4" Position="28.0417,145.0625,9.9997" Rotation="0.7883" Scale="1,1,1" Type="JarbanMinor_Crate">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -46,16 +48,17 @@
     <ObjectDoodad Id="1434865270" Variation="1" Position="24.3845,141.8591,9.9997" Rotation="5.5842" Scale="1,1,1" Type="JarbanMinor_Pallete_Large">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="511520227" Variation="4" Position="35,134,10.0207" Scale="1,1,1" Type="DOM_Crate">
+    <ObjectDoodad Id="1191734004" Variation="2" Position="29.5,139,9.9995" Scale="1,1,1" Type="DOM_Crate">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1191734004" Variation="2" Position="29.5,139,9.9995" Scale="1,1,1" Type="DOM_Crate">
+    <ObjectDoodad Id="511520227" Variation="4" Position="35,134,10.0207" Scale="1,1,1" Type="DOM_Crate">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1216645792" Variation="2" Position="34.7285,146.4101,10.0053" Scale="1,1,1" Type="DOM_Rocket">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="649476962" Variation="4" Position="33.0058,161.5632,9.9995" Scale="1,1,1" Type="CompoundSewers_ExhaustPipes"/>
     <ObjectDoodad Id="75150814" Variation="9" Position="32.414,145.646,9.9997" Rotation="0.8361" Scale="1,1,1" Type="Tarsonis_GroundTrims">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -65,22 +68,36 @@
     <ObjectDoodad Id="677118391" Position="39.5,140.5,10.0217" Rotation="2.356" Scale="1,1,1" Type="JarbanMinor_Pallete_Large">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="1648706905" Variation="1" Position="40.6252,151.0747,10.627" Rotation="2.356" Scale="1,1,1" Type="CompoundSewers_FuelingPipes">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1106263646" Position="23,150,0.9865" Rotation="3.9267" Scale="2,2,2" Type="Tarsonis_Bridge_DiagonalAlt">
+        <Flag Index="HeightOffset" Value="1"/>
+    </ObjectDoodad>
     <ObjectDoodad Id="1914701449" Variation="5" Position="33.5,132.5,9.9997" Rotation="1.8107" Scale="1,1,1" Type="Crate">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1260656021" Variation="3" Position="30.1345,140.5156,9.9997" Rotation="3.9267" Scale="1,1,1" Type="Tarsonis_GroundTrims">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="807143233" Variation="4" Position="27.5227,146.55,10.0051" Rotation="2.3444" Scale="1,1,1" Type="SpaceGunRack">
+    <ObjectDoodad Id="1982173600" Variation="5" Position="39.5,138.5,10.0217" Rotation="0.6657" Scale="1,1,1" Type="Crate">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1982173600" Variation="5" Position="39.5,138.5,10.0217" Rotation="0.6657" Scale="1,1,1" Type="Crate">
+    <ObjectDoodad Id="807143233" Variation="4" Position="27.5227,146.55,10.0051" Rotation="2.3444" Scale="1,1,1" Type="SpaceGunRack">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="620890828" Variation="5" Position="26.8598,141.0532,9.9997" Rotation="0.788" Scale="1,1,1" Type="JarbanMinor_Crate">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="478282000" Variation="1" Position="34.5461,159.8745,9.9995" Scale="1,1,1" Type="CompoundSewers_ExhaustPipes"/>
     <ObjectDoodad Id="928131709" Variation="14" Position="34.0861,161.879,10.3728" Rotation="5.4973" Scale="1,1,1" Type="CompoundSewers_FuelingPipes">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="599632838" Variation="1" Position="40.0107,156.4157,10.0275" Rotation="5.6171" Scale="1,1,1" Type="CompoundSewers_ExhaustPipes">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
@@ -88,6 +105,7 @@
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="1095941746" Variation="7" Position="33.13,159.273,9.9912" Scale="1,1,1" Type="CompoundSewers_ExhaustPipes"/>
     <ObjectDoodad Id="1613961078" Position="33.434,149.5937,9.9997" Rotation="5.4975" Scale="1,1,1" Type="CompoundSewers_Vent">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -115,10 +133,10 @@
     <ObjectDoodad Id="1334678499" Variation="5" Position="30.5,137.5,9.9997" Rotation="0.76" Scale="1,1,1" Type="CastanarCabinet">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1215037" Variation="5" Position="31.5,137.5,9.9997" Rotation="0.76" Scale="1,1,1" Type="CastanarCabinet">
+    <ObjectDoodad Id="1073109366" Variation="3" Position="30.0646,148.7785,9.9997" Rotation="2.3652" Scale="1,1,1" Type="SpaceGunRack">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1073109366" Variation="3" Position="30.0646,148.7785,9.9997" Rotation="2.3652" Scale="1,1,1" Type="SpaceGunRack">
+    <ObjectDoodad Id="1215037" Variation="5" Position="31.5,137.5,9.9997" Rotation="0.76" Scale="1,1,1" Type="CastanarCabinet">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1842423261" Variation="9" Position="35.46,135.8598,9.9997" Rotation="0.8364" Scale="1,1,1" Type="Tarsonis_GroundTrims">
@@ -129,6 +147,9 @@
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="1983831247" Position="50.4636,152.416,9.9997" Rotation="5.4973" Scale="1,1,1" Type="CompoundSewers_Vent">
+        <Flag Index="HeightOffset" Value="1"/>
+    </ObjectDoodad>
     <ObjectDoodad Id="952160350" Variation="6" Position="33.5932,143.753,9.9997" Rotation="0.7851" Scale="1,1,1" Type="Tarsonis_GroundTrims">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -138,12 +159,13 @@
     <ObjectDoodad Id="340079257" Variation="1" Position="33.7575,137.522,9.9997" Rotation="3.9267" Scale="1,1,1" Type="Tarsonis_GroundTrims">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1651214356" Variation="14" Position="34.353,161.8901,11.7092" Rotation="5.4973" Scale="1,1,1" Type="CompoundSewers_FuelingPipes">
-        <Flag Index="HeightOffset" Value="1"/>
-        <Flag Index="ForcePlacement" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="681375373" Variation="1" Position="36.4228,139.889,9.9997" Rotation="3.9267" Scale="1,1,1" Type="Tarsonis_GroundTrims">
         <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1651214356" Variation="14" Position="34.353,161.8901,11.7092" Rotation="5.4973" Scale="1,1,1" Type="CompoundSewers_FuelingPipes">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="921833174" Variation="1" Position="35.0217,145.4057,9.9997" Scale="1,1,1" Type="DOM_Rocket">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -162,10 +184,10 @@
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="971216942" Variation="5" Position="28.0598,142.63,9.9997" Rotation="3.9267" Scale="1,1,1" Type="Tarsonis_GroundTrims">
+    <ObjectDoodad Id="894423333" Variation="9" Position="34.6193,141.755,9.9997" Rotation="0.8361" Scale="1,1,1" Type="Tarsonis_GroundTrims">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="894423333" Variation="9" Position="34.6193,141.755,9.9997" Rotation="0.8361" Scale="1,1,1" Type="Tarsonis_GroundTrims">
+    <ObjectDoodad Id="971216942" Variation="5" Position="28.0598,142.63,9.9997" Rotation="3.9267" Scale="1,1,1" Type="Tarsonis_GroundTrims">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="783131529" Variation="5" Position="31.5,138.5,9.9997" Rotation="0.1306" Scale="1,1,1" Type="Crate">
